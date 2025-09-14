@@ -1,8 +1,7 @@
-// Problem: Luogu P11044 [蓝桥杯 2024 省 Java B] 食堂
-// Link: https://www.luogu.com.cn/problem/P11044
-//
-// nine19een
-// Date: 2025-09-14
+// Problem:  洛谷 P11044 [蓝桥杯 2024 省 Java B] 食堂
+// Link:     https://www.luogu.com.cn/problem/P11044
+// Author:   nine19een
+// Date:     2025-09-14
 
 #include<bits/stdc++.h>
 using namespace std;
