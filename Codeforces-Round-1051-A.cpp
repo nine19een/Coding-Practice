@@ -1,4 +1,4 @@
-// Problem:  Codeforces Round 1051 All Lengths Subtraction
+// Problem:  Codeforces Round 1051 A. All Lengths Subtraction
 // Link:     https://codeforces.com/contest/2143/problem/A
 // Author:   nine19een
 // Date:     2025-09-17
