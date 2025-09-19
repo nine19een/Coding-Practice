@@ -1,5 +1,5 @@
-// Problem:  Luogu P11011 「ALFR Round 4」A 点的覆盖
-// Link:     https://www.luogu.com.cn/problem/P11011
+// Problem:  Luogu P11001 [蓝桥杯 2024 省 Python B] 连连看
+// Link:     https://www.luogu.com.cn/problem/P11001
 // Author:   nine19een
 // Date:     2025-09-11
 
