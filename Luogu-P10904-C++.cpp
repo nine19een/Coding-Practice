@@ -1,4 +1,4 @@
-// Problem:  洛谷 P10904 [蓝桥杯 2024 省 C] 挖矿
+// Problem:  Luogu P10904 [蓝桥杯 2024 省 C] 挖矿
 // Link:     https://www.luogu.com.cn/problem/P10904
 // Author:   nine19een
 // Date:     2025-09-16

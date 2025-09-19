@@ -1,4 +1,4 @@
-// Problem:  洛谷 P8683 [蓝桥杯 2019 省 B] 后缀表达式
+// Problem:  Luogu P8683 [蓝桥杯 2019 省 B] 后缀表达式
 // Link:     https://www.luogu.com.cn/problem/P8683
 // Author:   nine19een
 // Date:     2025-09-14

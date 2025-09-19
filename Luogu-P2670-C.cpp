@@ -1,4 +1,4 @@
-// Problem:  洛谷 P2670 [NOIP 2015 普及组] 扫雷游戏
+// Problem:  Luogu P2670 [NOIP 2015 普及组] 扫雷游戏
 // Link:     https://www.luogu.com.cn/problem/P2670
 // Author:   nine19een
 // Date:     2025-09-16
