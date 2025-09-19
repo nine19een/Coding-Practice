@@ -1,4 +1,4 @@
-// Problem:  洛谷 P1540 [NOIP 2010 提高组] 机器翻译
+// Problem:  Luogu P1540 [NOIP 2010 提高组] 机器翻译
 // Link:     https://www.luogu.com.cn/problem/P1540
 // Author:   nine19een
 // Date:     2025-09-17
