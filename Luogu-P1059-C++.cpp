@@ -1,4 +1,4 @@
-// Problem:  洛谷 P1059 [NOIP 2006 普及组] 明明的随机数
+// Problem:  Luogu P1059 [NOIP 2006 普及组] 明明的随机数
 // Link:     https://www.luogu.com.cn/problem/P1059
 // Author:   nine19een
 // Date:     2025-09-17
