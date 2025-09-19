@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P13887 [蓝桥杯 2023 省 Python A] 三国游戏
 // Link:     https://www.luogu.com.cn/problem/P13887
 // Author:   nine19een
 // Date:     2025-09-07

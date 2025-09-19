@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P1048 [NOIP 2005 普及组] 采药
 // Link:     https://www.luogu.com.cn/problem/P1048
 // Author:   nine19een
 // Date:     2025-07-21

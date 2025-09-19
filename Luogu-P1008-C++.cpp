@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P1008 [NOIP 1998 普及组] 三连击
 // Link:     https://www.luogu.com.cn/problem/P1008
 // Author:   nine19een
 // Date:     2025-09-14

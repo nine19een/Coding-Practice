@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P3368 【模板】树状数组 2
 // Link:     https://www.luogu.com.cn/problem/P3368
 // Author:   nine19een
 // Date:     2025-08-12

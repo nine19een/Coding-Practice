@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P5727 【深基5.例3】冰雹猜想
 // Link:     https://www.luogu.com.cn/problem/P5727
 // Author:   nine19een
 // Date:     2025-07-03

@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P1596 [USACO10OCT] Lake Counting S
 // Link:     https://www.luogu.com.cn/problem/P1596
 // Author:   nine19een
 // Date:     2025-07-15

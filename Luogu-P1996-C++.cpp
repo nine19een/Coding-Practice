@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P1996 约瑟夫问题
 // Link:     https://www.luogu.com.cn/problem/P1996
 // Author:   nine19een
 // Date:     2025-08-24

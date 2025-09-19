@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P1425 小鱼的游泳时间
 // Link:     https://www.luogu.com.cn/problem/P1425
 // Author:   nine19een
 // Date:     2025-07-02

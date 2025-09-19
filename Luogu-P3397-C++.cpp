@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P3397 地毯
 // Link:     https://www.luogu.com.cn/problem/P3397
 // Author:   nine19een
 // Date:     2025-08-17

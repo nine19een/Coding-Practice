@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P10903 [蓝桥杯 2024 省 C] 商品库存管理
 // Link:     https://www.luogu.com.cn/problem/P10903
 // Author:   nine19een
 // Date:     2025-09-06

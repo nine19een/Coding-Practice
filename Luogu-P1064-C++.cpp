@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P1064 [NOIP 2006 提高组] 金明的预算方案
 // Link:     https://www.luogu.com.cn/problem/P1064
 // Author:   nine19een
 // Date:     2025-08-06

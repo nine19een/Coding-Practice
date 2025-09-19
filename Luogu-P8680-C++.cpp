@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P8680 [蓝桥杯 2019 省 B] 特别数的和
 // Link:     https://www.luogu.com.cn/problem/P8680
 // Author:   nine19een
 // Date:     2025-09-12

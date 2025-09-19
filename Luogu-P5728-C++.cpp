@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P5728 【深基5.例5】旗鼓相当的对手
 // Link:     https://www.luogu.com.cn/problem/P5728
 // Author:   nine19een
 // Date:     2025-07-03

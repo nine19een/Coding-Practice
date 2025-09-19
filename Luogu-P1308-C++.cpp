@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P1308 [NOIP 2011 普及组] 统计单词数
 // Link:     https://www.luogu.com.cn/problem/P1308
 // Author:   nine19een
 // Date:     2025-07-11

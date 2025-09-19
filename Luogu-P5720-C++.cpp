@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P5720 【深基4.例4】一尺之棰
 // Link:     https://www.luogu.com.cn/problem/P5720
 // Author:   nine19een
 // Date:     2025-07-02

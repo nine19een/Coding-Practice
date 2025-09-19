@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P2834 纸币问题 3
 // Link:     https://www.luogu.com.cn/problem/P2834
 // Author:   nine19een
 // Date:     2025-07-19

@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P12163 [蓝桥杯 2025 省 C/Java A] 2025
 // Link:     https://www.luogu.com.cn/problem/P12163
 // Author:   nine19een
 // Date:     2025-08-23

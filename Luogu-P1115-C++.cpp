@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P1115 最大子段和
 // Link:     https://www.luogu.com.cn/problem/P1115
 // Author:   nine19een
 // Date:     2025-07-28

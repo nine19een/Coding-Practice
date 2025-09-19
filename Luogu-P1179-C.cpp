@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P1179 [NOIP 2010 普及组] 数字统计
 // Link:     https://www.luogu.com.cn/problem/P1179
 // Author:   nine19een
 // Date:     2025-09-15

@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P8707 [蓝桥杯 2020 省 AB1] 走方格
 // Link:     https://www.luogu.com.cn/problem/P8707
 // Author:   nine19een
 // Date:     2025-09-11

@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P12288 [蓝桥杯 2024 国 Java A] 栈
 // Link:     https://www.luogu.com.cn/problem/P12288
 // Author:   nine19een
 // Date:     2025-09-05

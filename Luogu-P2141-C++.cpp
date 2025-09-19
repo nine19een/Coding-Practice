@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P2141 [NOIP 2014 普及组] 珠心算测验
 // Link:     https://www.luogu.com.cn/problem/P2141
 // Author:   nine19een
 // Date:     2025-07-16

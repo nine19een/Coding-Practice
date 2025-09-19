@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P1381 单词背诵
 // Link:     https://www.luogu.com.cn/problem/P1381
 // Author:   nine19een
 // Date:     2025-08-20

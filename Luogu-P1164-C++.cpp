@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P1164 小A点菜
 // Link:     https://www.luogu.com.cn/problem/P1164
 // Author:   nine19een
 // Date:     2025-08-01

@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P1765 手机
 // Link:     https://www.luogu.com.cn/problem/P1765
 // Author:   nine19een
 // Date:     2025-07-07

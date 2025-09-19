@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P2840 纸币问题 2
 // Link:     https://www.luogu.com.cn/problem/P2840
 // Author:   nine19een
 // Date:     2025-07-19

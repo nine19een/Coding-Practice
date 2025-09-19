@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P1077 [NOIP 2012 普及组] 摆花
 // Link:     https://www.luogu.com.cn/problem/P1077
 // Author:   nine19een
 // Date:     2025-08-04

@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P8630 [蓝桥杯 2015 国 B] 密文搜索
 // Link:     https://www.luogu.com.cn/problem/P8630
 // Author:   nine19een
 // Date:     2025-08-20

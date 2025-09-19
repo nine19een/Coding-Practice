@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P1200 [USACO1.1] 你的飞碟在这儿 Your Ride Is Here
 // Link:     https://www.luogu.com.cn/problem/P1200
 // Author:   nine19een
 // Date:     2025-07-07

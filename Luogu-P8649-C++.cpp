@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P8649 [蓝桥杯 2017 省 B] k 倍区间
 // Link:     https://www.luogu.com.cn/problem/P8649
 // Author:   nine19een
 // Date:     2025-09-12

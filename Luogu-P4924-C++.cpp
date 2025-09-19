@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P4924 [1007] 魔法少女小Scarlet
 // Link:     https://www.luogu.com.cn/problem/P4924
 // Author:   nine19een
 // Date:     2025-07-18

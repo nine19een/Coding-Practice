@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P3865 【模板】ST 表 & RMQ 问题
 // Link:     https://www.luogu.com.cn/problem/P3865
 // Author:   nine19een
 // Date:     2025-08-23

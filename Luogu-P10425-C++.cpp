@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P10425 [蓝桥杯 2024 省 B] R 格式
 // Link:     https://www.luogu.com.cn/problem/P10425
 // Author:   nine19een
 // Date:     2025-09-14

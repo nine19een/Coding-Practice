@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu B2107 图像旋转
 // Link:     https://www.luogu.com.cn/problem/B2107
 // Author:   nine19een
 // Date:     2025-07-03

@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P1605 迷宫
 // Link:     https://www.luogu.com.cn/problem/P1605
 // Author:   nine19een
 // Date:     2025-07-17

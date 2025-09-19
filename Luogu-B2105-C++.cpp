@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu B2105 矩阵乘法
 // Link:     https://www.luogu.com.cn/problem/B2105
 // Author:   nine19een
 // Date:     2025-07-03

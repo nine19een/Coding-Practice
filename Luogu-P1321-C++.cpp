@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P1321 单词覆盖还原
 // Link:     https://www.luogu.com.cn/problem/P1321
 // Author:   nine19een
 // Date:     2025-07-04

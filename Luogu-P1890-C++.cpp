@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P1890 gcd区间
 // Link:     https://www.luogu.com.cn/problem/P1890
 // Author:   nine19een
 // Date:     2025-08-23

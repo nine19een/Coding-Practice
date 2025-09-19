@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu B3637 最长上升子序列
 // Link:     https://www.luogu.com.cn/problem/B3637
 // Author:   nine19een
 // Date:     2025-07-06

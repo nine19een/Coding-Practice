@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P1090 [NOIP 2004 提高组] 合并果子
 // Link:     https://www.luogu.com.cn/problem/P1090
 // Author:   nine19een
 // Date:     2025-09-02

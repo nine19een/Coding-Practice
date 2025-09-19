@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P12164 [蓝桥杯 2025 省 C/Python A] 2025 图形
 // Link:     https://www.luogu.com.cn/problem/P12164
 // Author:   nine19een
 // Date:     2025-08-23

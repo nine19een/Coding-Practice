@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P1328 [NOIP 2014 提高组] 生活大爆炸版石头剪刀布
 // Link:     https://www.luogu.com.cn/problem/P1328
 // Author:   nine19een
 // Date:     2025-07-22

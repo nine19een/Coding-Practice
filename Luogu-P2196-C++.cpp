@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P2196 [NOIP 1996 提高组] 挖地雷
 // Link:     https://www.luogu.com.cn/problem/P2196
 // Author:   nine19een
 // Date:     2025-07-23

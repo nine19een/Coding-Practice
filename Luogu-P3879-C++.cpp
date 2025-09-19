@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P3879 [TJOI2010] 阅读理解
 // Link:     https://www.luogu.com.cn/problem/P3879
 // Author:   nine19een
 // Date:     2025-08-19

@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P6033 [NOIP 2004 提高组] 合并果子 加强版
 // Link:     https://www.luogu.com.cn/problem/P6033
 // Author:   nine19een
 // Date:     2025-09-02

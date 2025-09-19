@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P2842 纸币问题 1
 // Link:     https://www.luogu.com.cn/problem/P2842
 // Author:   nine19een
 // Date:     2025-07-08

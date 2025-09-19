@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P9974 [USACO23DEC] Candy Cane Feast B
 // Link:     https://www.luogu.com.cn/problem/P9974
 // Author:   nine19een
 // Date:     2025-07-12

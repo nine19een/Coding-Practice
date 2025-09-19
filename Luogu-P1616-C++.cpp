@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P1616 疯狂的采药
 // Link:     https://www.luogu.com.cn/problem/P1616
 // Author:   nine19een
 // Date:     2025-07-31

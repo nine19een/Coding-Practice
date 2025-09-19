@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P1000 超级玛丽游戏
 // Link:     https://www.luogu.com.cn/problem/P1000
 // Author:   nine19een
 // Date:     2025-07-02

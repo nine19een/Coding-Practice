@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P12085 [蓝桥杯 2023 省 B] 整数删除
 // Link:     https://www.luogu.com.cn/problem/P12085
 // Author:   nine19een
 // Date:     2025-09-05

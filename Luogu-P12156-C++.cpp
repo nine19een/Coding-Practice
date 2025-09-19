@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P12156 [蓝桥杯 2025 省 Java B] 电池分组
 // Link:     https://www.luogu.com.cn/problem/P12156
 // Author:   nine19een
 // Date:     2025-09-09

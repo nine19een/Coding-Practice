@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P8673 [蓝桥杯 2018 国 C] 迷宫与陷阱
 // Link:     https://www.luogu.com.cn/problem/P8673
 // Author:   nine19een
 // Date:     2025-08-29

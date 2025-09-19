@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P1143 进制转换
 // Link:     https://www.luogu.com.cn/problem/P1143
 // Author:   nine19een
 // Date:     2025-07-21

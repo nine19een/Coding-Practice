@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P1036 [NOIP 2002 普及组] 选数
 // Link:     https://www.luogu.com.cn/problem/P1036
 // Author:   nine19een
 // Date:     2025-07-17

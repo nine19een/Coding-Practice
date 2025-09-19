@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu B2106 矩阵转置
 // Link:     https://www.luogu.com.cn/problem/B2106
 // Author:   nine19een
 // Date:     2025-07-03

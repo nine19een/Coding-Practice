@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P3842 [TJOI2007] 线段
 // Link:     https://www.luogu.com.cn/problem/P3842
 // Author:   nine19een
 // Date:     2025-08-05

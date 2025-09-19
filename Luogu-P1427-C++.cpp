@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P1427 小鱼的数字游戏
 // Link:     https://www.luogu.com.cn/problem/P1427
 // Author:   nine19een
 // Date:     2025-07-03

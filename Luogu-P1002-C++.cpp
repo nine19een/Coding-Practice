@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P1002 [NOIP 2002 普及组] 过河卒
 // Link:     https://www.luogu.com.cn/problem/P1002
 // Author:   nine19een
 // Date:     2025-07-29

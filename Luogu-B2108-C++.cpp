@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu B2108 图像模糊处理
 // Link:     https://www.luogu.com.cn/problem/B2108
 // Author:   nine19een
 // Date:     2025-07-16

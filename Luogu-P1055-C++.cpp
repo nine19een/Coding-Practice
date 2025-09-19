@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P1055 [NOIP 2008 普及组] ISBN 号码
 // Link:     https://www.luogu.com.cn/problem/P1055
 // Author:   nine19een
 // Date:     2025-07-13

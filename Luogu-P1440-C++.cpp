@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P1440 求m区间内的最小值
 // Link:     https://www.luogu.com.cn/problem/P1440
 // Author:   nine19een
 // Date:     2025-08-23

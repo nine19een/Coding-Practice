@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P2367 语文成绩
 // Link:     https://www.luogu.com.cn/problem/P2367
 // Author:   nine19een
 // Date:     2025-08-16

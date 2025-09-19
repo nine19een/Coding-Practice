@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P1067 [NOIP 2009 普及组] 多项式输出
 // Link:     https://www.luogu.com.cn/problem/P1067
 // Author:   nine19een
 // Date:     2025-07-22

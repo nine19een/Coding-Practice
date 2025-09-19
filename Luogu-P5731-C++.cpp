@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P5731 【深基5.习6】蛇形方阵
 // Link:     https://www.luogu.com.cn/problem/P5731
 // Author:   nine19een
 // Date:     2025-07-03

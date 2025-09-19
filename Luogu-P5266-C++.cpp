@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P5266 【深基17.例6】学籍管理
 // Link:     https://www.luogu.com.cn/problem/P5266
 // Author:   nine19een
 // Date:     2025-08-20

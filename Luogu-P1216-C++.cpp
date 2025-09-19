@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P1216 [IOI 1994 / USACO1.5] 数字三角形 Number Triangles
 // Link:     https://www.luogu.com.cn/problem/P1216
 // Author:   nine19een
 // Date:     2025-07-07

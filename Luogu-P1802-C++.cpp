@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P1802 5 倍经验日
 // Link:     https://www.luogu.com.cn/problem/P1802
 // Author:   nine19een
 // Date:     2025-07-29

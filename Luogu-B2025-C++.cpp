@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu B2025 输出字符菱形
 // Link:     https://www.luogu.com.cn/problem/B2025
 // Author:   nine19een
 // Date:     2025-07-02

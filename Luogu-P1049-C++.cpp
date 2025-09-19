@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P1049 [NOIP 2001 普及组] 装箱问题
 // Link:     https://www.luogu.com.cn/problem/P1049
 // Author:   nine19een
 // Date:     2025-07-31

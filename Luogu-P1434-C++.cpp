@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P1434 [SHOI2002] 滑雪
 // Link:     https://www.luogu.com.cn/problem/P1434
 // Author:   nine19een
 // Date:     2025-07-28

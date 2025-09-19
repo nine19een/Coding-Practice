@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P4305 [JLOI2011] 不重复数字
 // Link:     https://www.luogu.com.cn/problem/P4305
 // Author:   nine19een
 // Date:     2025-08-19

@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P3741 小果的键盘
 // Link:     https://www.luogu.com.cn/problem/P3741
 // Author:   nine19een
 // Date:     2025-07-08

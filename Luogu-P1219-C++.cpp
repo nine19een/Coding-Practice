@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P1219 [USACO1.5] 八皇后 Checker Challenge
 // Link:     https://www.luogu.com.cn/problem/P1219
 // Author:   nine19een
 // Date:     2025-07-17

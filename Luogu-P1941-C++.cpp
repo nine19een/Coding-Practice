@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P1941 [NOIP 2014 提高组] 飞扬的小鸟
 // Link:     https://www.luogu.com.cn/problem/P1941
 // Author:   nine19een
 // Date:     2025-08-16

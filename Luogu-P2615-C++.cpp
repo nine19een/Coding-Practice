@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P2615 [NOIP 2015 提高组] 神奇的幻方
 // Link:     https://www.luogu.com.cn/problem/P2615
 // Author:   nine19een
 // Date:     2025-07-12

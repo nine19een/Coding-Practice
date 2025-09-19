@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P5734 【深基6.例6】文字处理软件
 // Link:     https://www.luogu.com.cn/problem/P5734
 // Author:   nine19een
 // Date:     2025-07-16

@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P3370 【模板】字符串哈希
 // Link:     https://www.luogu.com.cn/problem/P3370
 // Author:   nine19een
 // Date:     2025-08-19

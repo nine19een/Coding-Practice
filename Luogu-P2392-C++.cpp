@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P2392 kkksc03考前临时抱佛脚
 // Link:     https://www.luogu.com.cn/problem/P2392
 // Author:   nine19een
 // Date:     2025-08-04

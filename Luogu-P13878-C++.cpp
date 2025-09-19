@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P13878 [蓝桥杯 2023 省 Java/Python A] 平均
 // Link:     https://www.luogu.com.cn/problem/P13878
 // Author:   nine19een
 // Date:     2025-09-08

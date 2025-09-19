@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P1125 [NOIP 2008 提高组] 笨小猴
 // Link:     https://www.luogu.com.cn/problem/P1125
 // Author:   nine19een
 // Date:     2025-07-09

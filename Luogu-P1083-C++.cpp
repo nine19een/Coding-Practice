@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P1083 [NOIP 2012 提高组] 借教室
 // Link:     https://www.luogu.com.cn/problem/P1083
 // Author:   nine19een
 // Date:     2025-08-07

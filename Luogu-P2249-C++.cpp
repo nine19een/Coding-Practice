@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P2249 【深基13.例1】查找
 // Link:     https://www.luogu.com.cn/problem/P2249
 // Author:   nine19een
 // Date:     2025-07-11

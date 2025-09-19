@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P5721 【深基4.例6】数字直角三角形
 // Link:     https://www.luogu.com.cn/problem/P5721
 // Author:   nine19een
 // Date:     2025-07-02

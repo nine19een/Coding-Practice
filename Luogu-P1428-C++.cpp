@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P1428 小鱼比可爱
 // Link:     https://www.luogu.com.cn/problem/P1428
 // Author:   nine19een
 // Date:     2025-07-03

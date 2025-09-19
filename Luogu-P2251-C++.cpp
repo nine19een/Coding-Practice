@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P2251 质量检测
 // Link:     https://www.luogu.com.cn/problem/P2251
 // Author:   nine19een
 // Date:     2025-08-23

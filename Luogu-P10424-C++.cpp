@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P10424 [蓝桥杯 2024 省 B] 好数
 // Link:     https://www.luogu.com.cn/problem/P10424
 // Author:   nine19een
 // Date:     2025-07-15

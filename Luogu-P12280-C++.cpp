@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P12280 [蓝桥杯 2024 国 Python A] 特别的数组
 // Link:     https://www.luogu.com.cn/problem/P12280
 // Author:   nine19een
 // Date:     2025-08-21

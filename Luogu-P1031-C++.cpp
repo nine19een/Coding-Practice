@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P1031 [NOIP 2002 提高组] 均分纸牌
 // Link:     https://www.luogu.com.cn/problem/P1031
 // Author:   nine19een
 // Date:     2025-07-10

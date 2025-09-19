@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P2550 [AHOI2001] 彩票摇奖
 // Link:     https://www.luogu.com.cn/problem/P2550
 // Author:   nine19een
 // Date:     2025-07-16

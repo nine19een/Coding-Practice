@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P1226 【模板】快速幂
 // Link:     https://www.luogu.com.cn/problem/P1226
 // Author:   nine19een
 // Date:     2025-07-11

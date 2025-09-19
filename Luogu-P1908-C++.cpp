@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P1908 逆序对
 // Link:     https://www.luogu.com.cn/problem/P1908
 // Author:   nine19een
 // Date:     2025-08-12

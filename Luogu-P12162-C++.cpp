@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P12162 [蓝桥杯 2025 省 C/Java A/研究生组] 数位倍数
 // Link:     https://www.luogu.com.cn/problem/P12162
 // Author:   nine19een
 // Date:     2025-08-23
