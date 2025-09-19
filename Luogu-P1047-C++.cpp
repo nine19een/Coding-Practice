@@ -1,4 +1,4 @@
-// Problem:  Luogu
+// Problem:  Luogu P1047 [NOIP 2005 普及组] 校门外的树
 // Link:     https://www.luogu.com.cn/problem/P1047
 // Author:   nine19een
 // Date:     2025-07-15
