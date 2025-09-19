@@ -1,4 +1,4 @@
-// Problem:  Luogu P1046 [NOIP 2005 фу╪╟вИ] лулуу╙ф╩╧Ш
+// Problem:  Luogu P1046 [NOIP 2005 Ф≥╝Е▐┼Г╩└] И≥╤И≥╤Ф▒≤Х▀╧Ф·°
 // Link:     https://www.luogu.com.cn/problem/P1046
 // Author:   nine19een
 // Date:     2025-07-02
