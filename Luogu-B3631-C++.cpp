@@ -1,5 +1,5 @@
-// Problem:  Luogu P3631 [APIO2011] 方格染色
-// Link:     https://www.luogu.com.cn/problem/P3631
+// Problem:  Luogu B3631 单向链表
+// Link:     https://www.luogu.com.cn/problem/B3631
 // Author:   nine19een
 // Date:     2025-08-24
 
