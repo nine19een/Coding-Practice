@@ -1,4 +1,4 @@
-// Problem:  P1001
+// Problem:  Luogu P1001 A+B Problem
 // Link:     https://www.luogu.com.cn/problem/P1001
 // Author:   nine19een
 // Date:     2025-07-02
