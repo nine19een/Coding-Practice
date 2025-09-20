@@ -1,7 +1,7 @@
 // Problem:  opj 1755 菲波那契数列
 // Link:     http://noi.openjudge.cn/ch0202/1755/
 // Author:   nine19een
-// Date:     2025-07-02
+// Date:     2025-07-12
 
 #include<bits/stdc++.h>
 using namespace std;
