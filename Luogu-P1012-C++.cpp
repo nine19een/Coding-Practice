@@ -2,6 +2,7 @@
 // Link:     https://www.luogu.com.cn/problem/P1012
 // Author:   nine19een
 // Date:     2025-10-02
+// Method:   手写冒泡排序
 
 #include<bits/stdc++.h>
 using namespace std;
