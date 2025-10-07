@@ -84,7 +84,6 @@ int main(){
 		}
 		update_temp();
 	}
-//	cout << a_pic << '\n';
 	for(int i = 1; i <= a_pic; ++i){
 		for(int j = 1; j <= a_pic; ++j){
 			cout << " " << pic[i][j];
