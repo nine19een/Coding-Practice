@@ -61,7 +61,7 @@ void op(){
 			sort(single_num.begin(), single_num.end(), greater<ll>());
 			auto it = single_num.begin();
 			while(it != prev(single_num.end())){
-				if((*it - *next(it)) / 2 < side){
+				if((*it - *next(it)) < side * 2){
 					ans = side * 2 + (*it) + (*next(it));
 					cout << ans << '\n';
 					return;
