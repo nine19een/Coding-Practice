@@ -1,5 +1,5 @@
 // Problem:  丁香花分形
-// Link:     还没上传
+// Link:     https://www.nine19een.com/2025/10/12/LilacFractal/
 // Author:   nine19een
 // Date:     2025-10-06
 
@@ -57,6 +57,15 @@ int main(){
 	cin.tie(NULL);
 	temp[1][1] = ' ', temp[1][2] = 'o', temp[1][3] = ' ', temp[2][1] = 'o', temp[2][2] = ' ', temp[2][3] = 'o', temp[3][1] = ' ', temp[3][2] = 'o', temp[3][3] = ' ';
 	cin >> n;
+	if(n == 0){
+		for(int i = 1; i <= 3; ++i){
+			for(int j = 1; j <= 3; ++j){
+				cout << " " << temp[i][j];
+			}
+			cout << '\n';
+		}
+		return 0;
+	}
 	for(int i = 1; i <= n; ++i){
 		update_a(i);
 		for (int j = 1; j <= a_temp; ++j) {
