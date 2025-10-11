@@ -13,9 +13,37 @@ bool isEven(ll x){
 	return !(x & 1);
 }
 
+ll Ans(int size_s, ll cnt_side, ll side, vector<ll>& single_num) {
+	ll ans = 0;
+	if(!size_s){
+		ans = (cnt_side <= 1) ? 0 : side * 2;
+	}
+	else{
+		if(!side){
+			ans = 0;
+		}
+		else{
+			sort(single_num.begin(), single_num.end(), greater<ll>());
+			auto it = single_num.begin();
+			for (it; it != prev(single_num.end()); ++it) {
+				if((*it - *next(it)) < side * 2){
+					ans = side * 2 + (*it) + (*next(it));
+					return ans;
+				}
+			}
+			if((*it) < 2 * side){
+				ans = 2 * side + (*it);
+				return ans;
+			}
+			ans = (cnt_side == 1) ? 0 : 2 * side;
+		}
+	}
+	return ans;
+}
+
 void op(){
 	int n;
-	ll side = 0, ans = 0, cnt_side = 0;
+	ll side = 0, cnt_side = 0;
 	cin >> n;
 	vector<ll> a(n), b(n);
 	for(int i = 0; i < n; ++i){
@@ -50,33 +78,7 @@ void op(){
 		}
 	}
 	int size_s = single_num.size();
-	if(!size_s){
-		ans = (cnt_side <= 1) ? 0 : side * 2;
-	}
-	else{
-		if(!side){
-			ans = 0;
-		}
-		else{
-			sort(single_num.begin(), single_num.end(), greater<ll>());
-			auto it = single_num.begin();
-			while(it != prev(single_num.end())){
-				if((*it - *next(it)) < side * 2){
-					ans = side * 2 + (*it) + (*next(it));
-					cout << ans << '\n';
-					return;
-				}
-				it++;
-			}
-			if((*it) < 2 * side){
-				ans = 2 * side + (*it);
-				cout << ans << '\n';
-				return;
-			}
-			ans = (cnt_side == 1) ? 0 : 2 * side;
-		}
-	}
-	cout << ans << '\n';
+	cout << Ans(size_s, cnt_side, side, single_num) << '\n';
 }
 
 int main(){
