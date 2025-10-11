@@ -68,14 +68,10 @@ void op(){
 				}
 				it++;
 			}
-			it = single_num.begin();
-			while(it != single_num.end()){
-				if((*it) < 2 * side){
-					ans = 2 * side + (*it);
-					cout << ans << '\n';
-					return;
-				}
-				it++;
+			if((*it) < 2 * side){
+				ans = 2 * side + (*it);
+				cout << ans << '\n';
+				return;
 			}
 			ans = (cnt_side == 1) ? 0 : 2 * side;
 		}
