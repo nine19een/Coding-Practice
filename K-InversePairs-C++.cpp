@@ -34,7 +34,7 @@ int main(){
 	cin.tie(NULL);
 	cin >> n >> k;
 	a.reserve(n + 5);
-	b.reserve(n + 5);
+	b.reserve(2 * n + 5);
 	for(int i = 1; i <= n; i++){
 		int num;
 		cin >> num;
