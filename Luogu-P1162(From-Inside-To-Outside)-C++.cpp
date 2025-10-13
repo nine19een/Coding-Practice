@@ -2,6 +2,7 @@
 // Link:     https://www.luogu.com.cn/problem/P1162
 // Author:   nine19een
 // Date:     2025-10-13
+// Method:   由内向外BFS
 
 #include <bits/stdc++.h>
 using namespace std;
