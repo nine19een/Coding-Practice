@@ -17,27 +17,25 @@ ll Ans(int size_s, ll cnt_side, ll side, vector<ll>& single_num) {
 	ll ans = 0;
 	if(!size_s){
 		ans = (cnt_side <= 1) ? 0 : side * 2;
+		return ans;
 	}
-	else{
-		if(!side){
-			ans = 0;
-		}
-		else{
-			sort(single_num.begin(), single_num.end(), greater<ll>());
-			auto it = single_num.begin();
-			for (it; it != prev(single_num.end()); ++it) {
-				if((*it - *next(it)) < side * 2){
-					ans = side * 2 + (*it) + (*next(it));
-					return ans;
-				}
-			}
-			if((*it) < 2 * side){
-				ans = 2 * side + (*it);
-				return ans;
-			}
-			ans = (cnt_side == 1) ? 0 : 2 * side;
+	if(!side){
+		ans = 0;
+		return ans;
+	}
+	sort(single_num.begin(), single_num.end(), greater<ll>());
+	auto it = single_num.begin();
+	for (it; it != prev(single_num.end()); ++it) {
+		if((*it - *next(it)) < side * 2){
+			ans = side * 2 + (*it) + (*next(it));
+			return ans;
 		}
 	}
+	if((*it) < 2 * side){
+		ans = 2 * side + (*it);
+		return ans;
+	}
+	ans = (cnt_side == 1) ? 0 : 2 * side;
 	return ans;
 }
 
