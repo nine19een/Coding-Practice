@@ -2,6 +2,7 @@
 // Link:     https://www.luogu.com.cn/problem/P1548
 // Author:   nine19een
 // Date:     2025-10-18
+
 #include<bits/stdc++.h>
 using namespace std;
 using ll = long long;
