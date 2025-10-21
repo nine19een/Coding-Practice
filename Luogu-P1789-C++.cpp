@@ -1,4 +1,4 @@
-// Problem:  Luogu 
+// Problem:  Luogu P1789 【Mc生存】插火把
 // Link:     https://www.luogu.com.cn/problem/P1789
 // Author:   nine19een
 // Date:     2025-10-21
