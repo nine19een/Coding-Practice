@@ -1,7 +1,7 @@
 // Problem:  Luogu P5725 【深基4.习8】求三角形
 // Link:     https://www.luogu.com.cn/problem/P5725
 // Author:   nine19een
-// Date:     2025-10-222
+// Date:     2025-10-22
 
 #include<stdio.h>
 
