@@ -27,11 +27,11 @@ void DP() {
         else if (i == 3) {
             dp[1][3][1] = pos[1].thirty;
         }
-        for (int i = 2; i <= n; i++) {
-            dp[i][1][0] = max(dp[i - 1][2][1], dp[i - 1][3][1]) + pos[i].ten;
-            dp[i][2][0] = dp[i - 1][3][1] + pos[i].twenty;
-            dp[i][2][1] = dp[i - 1][1][0] + pos[i].twenty;
-            dp[i][3][1] = max(dp[i - 1][1][0], dp[i - 1][2][0]) + pos[i].thirty;
+        for (int j = 2; j <= n; j++) {
+            dp[j][1][0] = max(dp[j - 1][2][1], dp[j - 1][3][1]) + pos[j].ten;
+            dp[j][2][0] = dp[j - 1][3][1] + pos[j].twenty;
+            dp[j][2][1] = dp[j - 1][1][0] + pos[j].twenty;
+            dp[j][3][1] = max(dp[j - 1][1][0], dp[j - 1][2][0]) + pos[j].thirty;
         }
         if (i == 1) {
             ans = max(ans, max(dp[n][2][1], dp[n][3][1]));
