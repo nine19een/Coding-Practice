@@ -1,3 +1,8 @@
+// Problem:  Luogu P5719 【深基4.例3】分类平均
+// Link:     https://www.luogu.com.cn/problem/P5719
+// Author:   nine19een
+// Date:     2025-10-27
+
 #include<stdio.h>
 
 int n, k;
