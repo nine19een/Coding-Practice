@@ -1,7 +1,7 @@
 // Problem:  Luogu P5724 【深基4.习5】求极差 / 最大跨度值 / 最大值和最小值的差
 // Link:     https://www.luogu.com.cn/problem/P5724
 // Author:   nine19een
-// Date:     2025-10-27
+// Date:     2025-10-28
 
 #include<stdio.h>
 
