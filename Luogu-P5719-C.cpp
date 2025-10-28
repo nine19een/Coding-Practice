@@ -26,6 +26,6 @@ void AB(){
 int main(){
 	scanf("%d %d", &n, &k);
 	AB();
-	printf("%0.1lf %0.1lf", A, B);
+	printf("%.1lf %.1lf", A, B);
 	return 0;
 }
