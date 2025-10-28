@@ -1,3 +1,8 @@
+// Problem:  Luogu P4414 [COCI 2006/2007 #2] ABC
+// Link:     https://www.luogu.com.cn/problem/P4414
+// Author:   nine19een
+// Date:     2025-10-27
+
 #include<stdio.h>
 
 int num[5];
