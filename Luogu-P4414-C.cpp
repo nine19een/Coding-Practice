@@ -7,14 +7,6 @@
 
 int num[5];
 
-int max(int x, int y){
-	return (x > y) ? x : y;
-}
-
-int min(int x, int y){
-	return (x < y) ? x : y;
-}
-
 void swap(int *ptr_x, int *ptr_y){
 	int z = *ptr_x;
 	*ptr_x = *ptr_y;
