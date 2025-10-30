@@ -27,8 +27,6 @@ int main(){
 			}
 		}
 	}
-	for(int i = 1; i <= n; ++i){
-		printf("%c", c[i]);
-	}
+	printf("%s", &c[1]);
 	return 0;
 }
