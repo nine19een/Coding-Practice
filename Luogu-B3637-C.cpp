@@ -15,7 +15,6 @@ int n, a[maxn], dp[maxn];
 int main(){
     scanf("%d", &n);
     for (int i = 1; i <= n; ++i) {
-        int idx;
         scanf("%d", &a[i]);
         for (int j = 1; j < i; ++j) {
             dp[i] = a[i] > a[j] ? max(dp[i], dp[j] + 1) : dp[i];
