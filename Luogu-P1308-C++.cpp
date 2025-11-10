@@ -44,13 +44,13 @@ int main()
 			{
 				words[wc][idx] = '\0';
 				wc++;
-				idx = 0;	
+				idx = 0;
 			}
-		}	
+		}
 	}
 	int first = -1, i = 0;
 	int k = 0;
-	
+
 	for(i; i <= wc ; i++){
 		bool match = true;
 		int len = strlen(words[i]);
@@ -64,7 +64,7 @@ int main()
 			}
 			if((words[i][p] == '\0' && word[p] != '\0') || (words[i][p] != '\0' && word[p] == '\0'))
 				match = false;
-		}			
+		}
 		if(match){
 			count_++;
 			if(first == -1)
@@ -75,6 +75,63 @@ int main()
 		if(first == -1)
 			cout << first;
 		else
-			cout << count_ << " " << first;	
+			cout << count_ << " " << first;
 		return 0;
+}
+
+//------------------------------------------------------------------------------------------------------------
+// Date:     2025-11-10
+
+#include<bits/stdc++.h>
+using namespace std;
+int const maxn = 1e6 + 5;
+
+int ans_idx = INT_MAX, cnt;
+char word[15], sentence[maxn];
+
+void ToLower() {
+    for (int i = 0; sentence[i] != 0; i++) {
+        sentence[i] = tolower(sentence[i]);
+    }
+    for (int i = 0; word[i] != 0; i++) {
+        word[i] = tolower(word[i]);
+    }
+}
+
+bool match(int idx, int w) {
+    for (int i = 0; i < w; i++) {
+        if (word[i] != sentence[idx + i]) {
+            return false;
+        }
+    }
+    if (sentence[idx + w] != ' ' && sentence[idx + w] != 0) {
+        return false;
+    }
+    return true;
+}
+
+void solve() {
+    int w_len = strlen(word), s_len = strlen(sentence);
+    for (int i = 0; i < s_len; i++) {
+        if (word[0] == sentence[i] && (i == 0 || sentence[i - 1] == ' ')) {
+            if (match(i, w_len)) {
+                cnt++;
+                ans_idx = min(i, ans_idx);
+            }
+        }
+    }
+}
+
+int main() {
+    cin >> word;
+    getchar();
+    cin.getline(sentence, maxn);
+    ToLower();
+    solve();
+    if (ans_idx == INT_MAX) {
+        cout << -1;
+        return 0;
+    }
+    cout << cnt << " " << ans_idx;
+    return 0;
 }
