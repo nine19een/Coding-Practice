@@ -49,3 +49,37 @@ int main()
 	}
     return 0;
 }
+
+// -----------------------------------------------------------------
+// Date:     2025-07-11
+
+#include<bits/stdc++.h>
+using namespace std;
+
+int n, m;
+
+void query(int t_num, vector<int> &a){
+	auto it = a.end();
+	it = lower_bound(a.begin(), a.end(), t_num);
+	if(it != a.end() && *it == t_num){
+		cout << it - a.begin() + 1 << " ";
+	} else {
+		cout << -1 << " ";
+	}
+}
+
+int main(){
+	ios_base::sync_with_stdio(false);
+	cin.tie(nullptr);
+	cin >> n >> m;
+	vector<int> a(n);
+	for(int i = 0; i < n; ++i){
+		cin >> a[i];
+	}
+	for(int i = 1; i <= m; ++i){
+		int target_num;
+		cin >> target_num;
+		query(target_num, a);
+	}
+	return 0;
+}
