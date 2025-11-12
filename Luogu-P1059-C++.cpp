@@ -25,3 +25,26 @@ int main(){
 	}
 	return 0;
 }
+
+// ----------------------------------------------------------------
+// Date:     2025-11-12
+
+#include<bits/stdc++.h>
+using namespace std;
+
+int n;
+
+int main(){
+	cin >> n;
+	vector<int> a(n);
+	for(int i = 0; i < n; ++i){
+		cin >> a[i];
+	}
+	sort(a.begin(), a.end());
+	a.erase(unique(a.begin(), a.end()), a.end());
+	cout << a.size() << endl;
+	for(int p : a){
+		cout << p << " ";
+	}
+	return 0;
+}
