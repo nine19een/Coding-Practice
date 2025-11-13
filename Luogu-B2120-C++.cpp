@@ -10,10 +10,10 @@ string s;
 bool flag = false;
 
 int main() {
-    getline(cin,s);
+    getline(cin, s);
     s += ' ';
     int cnt = 0;
-    for (char c : s) {
+    for (char c: s) {
         if (c != ' ') {
             cnt++;
         } else {
@@ -22,7 +22,7 @@ int main() {
             }
             if (!flag) {
                 cout << cnt;
-            }else {
+            } else {
                 cout << "," << cnt;
             }
             flag = true;
