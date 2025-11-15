@@ -13,7 +13,6 @@ int main() {
     cin.tie(nullptr);
     getline(cin, s);
     s += ' ';
-    // cout << s << endl;
     for (char c: s) {
         if (c != ' ') {
             word += c;
