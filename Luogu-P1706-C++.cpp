@@ -13,8 +13,8 @@ vector<int> ans;
 
 void DFS(int idx) {
     if (idx > n) {
-        for (int i = 0; i < n; ++i) {
-            cout << setw(5) << ans[i];
+        for (int p : ans) {
+            cout << setw(5) << p;
         }
         cout << endl;
         return;
