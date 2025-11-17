@@ -1,3 +1,8 @@
+// Problem:  Luogu B2160 病人排队
+// Link:     https://www.luogu.com.cn/problem/B2160
+// Author:   nine19een
+// Date:     2025-11-17
+
 #include<bits/stdc++.h>
 using namespace std;
 int const maxn = 105;
