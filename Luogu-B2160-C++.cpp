@@ -9,7 +9,7 @@ int const maxn = 105;
 
 struct Patient {
     string id;
-    int age, idx;
+    int age;
 };
 
 int n;
