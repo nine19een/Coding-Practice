@@ -6,18 +6,18 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-int cnt, ans = INT_MIN, n, pre, num;
+int cnt, ans = INT_MIN, n, prev_num, num;
 
 int main() {
     cin >> n;
     for (int i = 1; i <= n; ++i) {
         cin >> num;
-        if (num == pre + 1) {
+        if (num == prev_num + 1) {
             ans = max(ans, ++cnt);
-            pre++;
+            prev_num++;
         } else {
             cnt = 1;
-            pre = num;
+            prev_num = num;
             ans = max(ans, cnt);
         }
     }
