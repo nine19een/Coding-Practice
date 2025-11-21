@@ -10,7 +10,7 @@ int const maxn = 2e5 + 5;
 int t, a[maxn], b[maxn];
 
 void op() {
-    int n, cnt_odd = 0, cnt_even = 0, cnt_1 = 0;
+    int n, cnt_1 = 0;
     cin >> n;
     for (int i = 1; i <= n; ++i) {
         cin >> a[i];
@@ -19,22 +19,22 @@ void op() {
     for (int i = 1; i <= n; ++i) {
         cin >> b[i];
         cnt_1 += b[i] ? 1 : 0;
-        if (!(cnt_1 & 1)) {
-            cout << "Tie" << '\n';
-            return;
+    }
+    if (!(cnt_1 & 1)) {
+        cout << "Tie" << '\n';
+        return;
+    }
+    bool last_person; //1->odd 0->even
+    for (int i = n; i >= 1; --i) {
+        if (a[i] != b[i]) {
+            last_person = (i & 1);
+            break;
         }
-        bool last_person; //1->odd 0->even
-        for (int i = n; i >= 1; --i) {
-            if (a[i] != b[i]) {
-                last_person = (i & 1);
-                break;
-            }
-        }
-        if (last_person) {
-            cout << "Ajisai" << '\n';
-        } else {
-            cout << "Mai" << '\n';
-        }
+    }
+    if (last_person) {
+        cout << "Ajisai" << '\n';
+    } else {
+        cout << "Mai" << '\n';
     }
 }
 
