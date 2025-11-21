@@ -20,7 +20,7 @@ int main() {
         int num;
         cin >> num;
         auto it = lower_bound(a.begin(), a.end(), num);
-        if (*it == num) {
+        if (it != a.end() && *it == num) {
             cout << it - a.begin() + 1 << '\n';
         } else {
             cout << -1 << '\n';
