@@ -6,7 +6,6 @@
 #include<bits/stdc++.h>
 using namespace std;
 using ll = long long;
-int const maxn = 1 << 25;
 
 ll a, b;
 
