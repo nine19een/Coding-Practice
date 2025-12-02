@@ -40,6 +40,6 @@ int main() {
         Diff(l, r, s, e, (e - s) / (r - l));
     }
     sum();
-    cout << XOR << max_val;
+    cout << XOR << " " << max_val;
     return 0;
 }
