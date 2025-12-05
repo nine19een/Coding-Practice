@@ -1,3 +1,8 @@
+// Problem:  Luogu P3912 素数个数
+// Link:     https://www.luogu.com.cn/problem/P3912
+// Author:   nine19een
+// Date:     2025-12-05
+
 #include<bits/stdc++.h>
 using namespace std;
 const int MAXN = 100000005, MAXP = 6000000;
