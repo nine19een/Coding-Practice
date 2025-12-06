@@ -1,5 +1,5 @@
 // Problem:  Luogu B2144 阿克曼（Ackermann）函数
-// Link:     https://www.luogu.com.cn/problem/2144
+// Link:     https://www.luogu.com.cn/problem/B2144
 // Author:   nine19een
 // Date:     2025-12-07
 

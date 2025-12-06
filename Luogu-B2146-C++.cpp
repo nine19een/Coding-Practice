@@ -1,5 +1,5 @@
 // Problem:  Luogu B2146 Hermite 多项式
-// Link:     https://www.luogu.com.cn/problem/2146
+// Link:     https://www.luogu.com.cn/problem/B2146
 // Author:   nine19een
 // Date:     2025-12-07
 
