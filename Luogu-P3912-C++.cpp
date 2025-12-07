@@ -11,24 +11,24 @@ int cnt, n;
 bool not_prime[MAXN];
 vector<int> primes;
 
-int main(){
-	primes.reserve(MAXP);
-	cin >> n;
-	for(int i = 2; i <= n; ++i){
-		if(!not_prime[i]){
-			primes.push_back(i);
-			cnt++;
-		}
-		for(int p: primes){
-			if(p * i > n){
-				break;
-			}
-			not_prime[p * i] = true;
-			if(i % p == 0){
-				break;
-			}
-		}
-	}
-	cout << cnt;
-	return 0;
+int main() {
+    primes.reserve(MAXP);
+    cin >> n;
+    for (int i = 2; i <= n; ++i) {
+        if (!not_prime[i]) {
+            primes.push_back(i);
+            cnt++;
+        }
+        for (int p: primes) {
+            if (p * i > n) {
+                break;
+            }
+            not_prime[p * i] = true;
+            if (i % p == 0) {
+                break;
+            }
+        }
+    }
+    cout << cnt;
+    return 0;
 }
