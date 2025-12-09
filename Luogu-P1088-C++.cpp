@@ -2,6 +2,7 @@
 // Link:     https://www.luogu.com.cn/problem/P1088
 // Author:   nine19een
 // Date:     2025-10-14
+// Method:   DFS
 
 #include<bits/stdc++.h>
 using namespace std;
