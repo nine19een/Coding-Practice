@@ -2,6 +2,7 @@
 // Link:     https://www.luogu.com.cn/problem/P1540
 // Author:   nine19een
 // Date:     2025-12-08
+// Method:   unordered_set + queue
 
 #include<bits/stdc++.h>
 using namespace std;
