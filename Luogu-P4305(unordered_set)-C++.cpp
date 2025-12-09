@@ -2,7 +2,7 @@
 // Link:     https://www.luogu.com.cn/problem/P4305
 // Author:   nine19een
 // Date:     2025-12-09
-// method:   unordered_set
+// Method:   unordered_set
 
 #include<bits/stdc++.h>
 using namespace std;

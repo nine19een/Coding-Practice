@@ -2,7 +2,7 @@
 // Link:     https://www.luogu.com.cn/problem/P1088
 // Author:   nine19een
 // Date:     2025-12-09
-// method:   全排列函数next_permutation
+// Method:   全排列函数next_permutation
 
 #include<bits/stdc++.h>
 using namespace std;
