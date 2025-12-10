@@ -17,8 +17,9 @@ int main() {
         double temperature;
         bool cough;
         cin >> name >> temperature >> cough;
-        if (temperature >= 37.5 && cough)
+        if (temperature >= 37.5 && cough) {
             patient.push_back(name);
+        }
     }
     for (string s: patient) {
         cout << s << endl;
