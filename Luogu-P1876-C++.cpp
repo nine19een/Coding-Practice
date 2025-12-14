@@ -7,11 +7,11 @@
 using namespace std;
 using ll = long long;
 
-int main(){
-	ll n;
-	cin >> n;
-	for(int i = 1; i <= n / i; ++i){
-		cout << i * i << " ";
-	}
-	return 0;
+int main() {
+    ll n;
+    cin >> n;
+    for (int i = 1; i <= n / i; ++i) {
+        cout << i * i << " ";
+    }
+    return 0;
 }
