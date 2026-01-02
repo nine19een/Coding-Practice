@@ -2,6 +2,7 @@
 // Link:     https://www.luogu.com.cn/problem/P3865
 // Author:   nine19een
 // Date:     2026-01-02
+// Method:   递推预处理log2
 
 #include <bits/stdc++.h>
 using namespace std;
