@@ -1,7 +1,7 @@
 // Problem:  Luogu P3128 [USACO15DEC] Max Flow P
 // Link:     https://www.luogu.com.cn/problem/P3128
 // Author:   nine19een
-// Date:     2026-01-25
+// Date:     2026-01-22
 
 #include <bits/stdc++.h>
 using namespace std;
