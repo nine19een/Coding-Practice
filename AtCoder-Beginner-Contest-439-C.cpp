@@ -1,5 +1,5 @@
 // Problem:  AtCoder Beginner Contest 439 C - 2026
-// Link:     https://atcoder.jp/contests/abc438/tasks/abc438_c
+// Link:     https://atcoder.jp/contests/abc439/tasks/abc439_c
 // Author:   nine19een
 // Date:     2026-01-04
 

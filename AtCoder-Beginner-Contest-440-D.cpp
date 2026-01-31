@@ -1,5 +1,5 @@
 // Problem:  AtCoder Beginner Contest 440 D - Forbidden List 2
-// Link:     https://atcoder.jp/contests/abc438/tasks/abc440_d
+// Link:     https://atcoder.jp/contests/abc440/tasks/abc440_d
 // Author:   nine19een
 // Date:     2026-01-13
 

@@ -1,5 +1,5 @@
 // Problem:  AtCoder Beginner Contest 439 B - Happy Number
-// Link:     https://atcoder.jp/contests/abc438/tasks/abc438_b
+// Link:     https://atcoder.jp/contests/abc439/tasks/abc439_b
 // Author:   nine19een
 // Date:     2026-01-04
 

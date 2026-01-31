@@ -1,5 +1,5 @@
 // Problem:  AtCoder Beginner Contest 439 D - Kadomatsu Subsequence
-// Link:     https://atcoder.jp/contests/abc438/tasks/abc438_d
+// Link:     https://atcoder.jp/contests/abc439/tasks/abc439_d
 // Author:   nine19een
 // Date:     2026-01-04
 

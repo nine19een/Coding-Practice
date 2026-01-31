@@ -1,5 +1,5 @@
 // Problem:  AtCoder Beginner Contest 439 A - 2^n - 2*n
-// Link:     https://atcoder.jp/contests/abc438/tasks/abc438_a
+// Link:     https://atcoder.jp/contests/abc439/tasks/abc439_a
 // Author:   nine19een
 // Date:     2026-01-04
 

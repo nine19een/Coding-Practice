@@ -1,5 +1,5 @@
 // Problem:  AtCoder Beginner Contest 440 B - Trifecta
-// Link:     https://atcoder.jp/contests/abc438/tasks/abc440_b
+// Link:     https://atcoder.jp/contests/abc440/tasks/abc440_b
 // Author:   nine19een
 // Date:     2026-01-12
 

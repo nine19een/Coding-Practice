@@ -1,5 +1,5 @@
 // Problem:  AtCoder Beginner Contest 443 C - Chokutter Addiction
-// Link:     https://atcoder.jp/contests/abc438/tasks/abc443_c
+// Link:     https://atcoder.jp/contests/abc443/tasks/abc443_c
 // Author:   nine19een
 // Date:     2026-01-31
 
