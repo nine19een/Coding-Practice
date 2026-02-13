@@ -1,54 +1,81 @@
-# Prerequisites
-*.d
+# =========================
+# 1. 编译产物 (所有 IDE 通用)
+# =========================
+# Windows 可执行文件
+*.exe
+*.dll
 
-# Compiled Object files
-*.slo
-*.lo
+# Linux/Mac 可执行文件
+*.out
+*.app
+*.so
+*.dylib
+
+# 编译中间文件 (Object files)
 *.o
 *.obj
 
-# Precompiled Headers
+# 预编译头文件
 *.gch
 *.pch
 
-# Linker files
-*.ilk
-
-# Debugger Files
+# 调试文件
 *.pdb
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
-# debug information files
+*.ilk
 *.dwo
 
-# CLion project files
-/.idea
+# =========================
+# 2. CLion (JetBrains) 专属垃圾
+# =========================
+# CLion 的项目配置文件夹 (包含你的本地窗口布局等，不应该上传)
+.idea/
 
-# Compiled files
-*.o
-*.exe
-*.out
-
-# Build directories
+# CMake 构建目录 (这里用了通配符，不管是 debug 还是 release 全部忽略)
+cmake-build-*/
 /build/
-/cmake-build-debug/
-/cmake-build-release/
+
+# 临时的 CMake 文件
+CMakeLists.txt.user
+
+# =========================
+# 3. VS Code 专属垃圾
+# =========================
+# VS Code 的项目配置 (launch.json, settings.json 等本地配置)
+.vscode/
+
+# VS Code 工作区文件
+*.code-workspace
+
+# =========================
+# 4. Dev-C++ 专属垃圾
+# =========================
+# Dev-C++ 的布局文件 (记录你上次打开了哪些窗口)
+*.layout
+
+# Dev-C++ 的 Makefile (通常由 IDE 自动生成，没必要上传)
+Makefile.win
+
+# 如果你用 Dev-C++ 建工程，会生成 .dev 文件。
+# 如果你只希望上传代码，建议忽略它；如果你想保留工程结构，可以删除下面这一行。
+*.dev
+
+# =========================
+# 5. 算法竞赛常用 (强烈推荐)
+# =========================
+# 忽略本地测试用的输入输出文件 (防止把几百 MB 的测试数据传上去)
+*.txt
+*.in
+*.ans
+
+# 忽略 Mac 系统产生的垃圾文件 (如果你或你的队友用 Mac)
+.DS_Store
+
+# =========================
+# 核心保护
+# =========================
+# 即使上面忽略了所有，也要强制保留 .cpp, .c, .h, .hpp 文件
+!*.cpp
+!*.c
+!*.h
+!*.hpp
+!CMakeLists.txt
