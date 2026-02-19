@@ -32,7 +32,6 @@ int main() {
                 break;
             }
         }
-        //		cout << "idx=" << idx << '\n';
         if (idx == 0) {
             cout << a.back() << " " << a.back() * 2;
             return 0;
