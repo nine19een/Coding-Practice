@@ -1,4 +1,4 @@
-// Problem:  P1273 有线电视网
+// Problem:  Luogu P1273 有线电视网
 // Link:     https://www.luogu.com.cn/problem/P1273
 // Author:   nine19een
 // Date:     2026-02-19
