@@ -46,8 +46,6 @@ int main() {
     }
     int root = n + 1;
     DP(root, 0);
-    dp[root][0]++;
-    dp[root][1]++;
-    cout << min(min(dp[root][0], dp[root][1]), dp[root][2]);
+    cout << dp[root][2];
     return 0;
 }
