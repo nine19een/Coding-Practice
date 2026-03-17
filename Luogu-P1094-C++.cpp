@@ -1,3 +1,8 @@
+// Problem:  Luogu P1094 [NOIP 2007 普及组] 纪念品分组
+// Link:     https://www.luogu.com.cn/problem/P1094
+// Author:   nine19een
+// Date:     2026-03-17
+
 #include<bits/stdc++.h>
 using namespace std;
 constexpr int maxn = 3e4 + 5;
