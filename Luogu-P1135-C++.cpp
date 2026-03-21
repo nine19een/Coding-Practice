@@ -7,45 +7,37 @@
 using namespace std;
 constexpr int maxn = 205;
 
-struct Floor {
-    int f, cnt;
-};
-
-int n, a, b, k[maxn], d[] = {1, -1};
-bool vis[maxn], have_ans;
+int n, a, b, k[maxn], d[] = {1, -1}, times[maxn];
 
 bool available(int f) {
-    return f >= 1 && f <= n && !vis[f];
+    return f >= 1 && f <= n && times[f] == -1;
 }
 
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
+    memset(times, -1, sizeof times);
     cin >> n >> a >> b;
     for (int i = 1; i <= n; i++) {
         cin >> k[i];
     }
-    queue<Floor> q;
-    q.push({a, 0});
-    vis[a] = true;
+    queue<int> q;
+    q.push(a);
+    times[a] = 0;
     while (!q.empty()) {
-        int cur_f = q.front().f, cur_c = q.front().cnt;
+        int f = q.front();
         q.pop();
-        if (cur_f == b) {
-            cout << cur_c;
-            have_ans = true;
+        if (f == b) {
             break;
         }
         for (int i = 0; i < 2; ++i) {
-            int next_f = cur_f + d[i] * k[cur_f];
-            if (available(next_f)) {
-                q.push({next_f, cur_c + 1});
-                vis[next_f] = true;
+            int nf = f + d[i] * k[f];
+            if (available(nf)) {
+                q.push(nf);
+                times[nf] = times[f] + 1;
             }
         }
     }
-    if (!have_ans) {
-        cout << -1;
-    }
+    cout << (times[b] == -1 ? -1 : times[b]);
     return 0;
 }
