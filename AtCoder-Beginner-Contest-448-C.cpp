@@ -1,5 +1,5 @@
 // Problem:  AtCoder Beginner Contest 448 C - Except and Min
-// Link:     https://atcoder.jp/contests/abc443/tasks/abc448_c
+// Link:     https://atcoder.jp/contests/abc448/tasks/abc448_c
 // Author:   nine19een
 // Date:     2026-03-07
 

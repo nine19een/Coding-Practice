@@ -1,5 +1,5 @@
 // Problem:  AtCoder Beginner Contest 448 D - Integer-duplicated Path
-// Link:     https://atcoder.jp/contests/abc443/tasks/abc448_d
+// Link:     https://atcoder.jp/contests/abc448/tasks/abc448_d
 // Author:   nine19een
 // Date:     2026-03-07
 

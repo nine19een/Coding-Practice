@@ -1,5 +1,5 @@
 // Problem:  AtCoder Beginner Contest 448 A - chmin
-// Link:     https://atcoder.jp/contests/abc443/tasks/abc448_a
+// Link:     https://atcoder.jp/contests/abc448/tasks/abc448_a
 // Author:   nine19een
 // Date:     2026-03-07
 

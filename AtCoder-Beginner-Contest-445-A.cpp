@@ -1,5 +1,5 @@
 // Problem:  AtCoder Beginner Contest 445 A - Strong Word
-// Link:     https://atcoder.jp/contests/abc443/tasks/abc445_a
+// Link:     https://atcoder.jp/contests/abc445/tasks/abc445_a
 // Author:   nine19een
 // Date:     2026-02-14
 

@@ -1,3 +1,8 @@
+// Problem:  AtCoder Beginner Contest 449 B - Deconstruct Chocolate
+// Link:     https://atcoder.jp/contests/abc449/tasks/abc449_b
+// Author:   nine19een
+// Date:     2026-03-14
+
 #include <bits/stdc++.h>
 using namespace std;
 

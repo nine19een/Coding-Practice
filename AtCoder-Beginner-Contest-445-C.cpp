@@ -1,5 +1,5 @@
 // Problem:  AtCoder Beginner Contest 445 C - Sugoroku Destination
-// Link:     https://atcoder.jp/contests/abc443/tasks/abc445_c
+// Link:     https://atcoder.jp/contests/abc445/tasks/abc445_c
 // Author:   nine19een
 // Date:     2026-02-14
 

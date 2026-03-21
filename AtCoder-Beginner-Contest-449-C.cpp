@@ -1,3 +1,8 @@
+// Problem:  AtCoder Beginner Contest 449 C - Comfortable Distance
+// Link:     https://atcoder.jp/contests/abc449/tasks/abc449_c
+// Author:   nine19een
+// Date:     2026-03-14
+
 #include <bits/stdc++.h>
 using namespace std;
 using ll = long long;

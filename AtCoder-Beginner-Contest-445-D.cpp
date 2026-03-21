@@ -1,5 +1,5 @@
 // Problem:  AtCoder Beginner Contest 445 D - Reconstruct Chocolate
-// Link:     https://atcoder.jp/contests/abc443/tasks/abc445_d
+// Link:     https://atcoder.jp/contests/abc445/tasks/abc445_d
 // Author:   nine19een
 // Date:     2026-02-14
 
