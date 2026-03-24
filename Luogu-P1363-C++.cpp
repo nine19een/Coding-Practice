@@ -21,8 +21,7 @@ Node vis[maxn][maxn];
 
 int R(int num, int mod) {
     int r = (num % mod + mod) % mod;
-    r = !r ? mod : r;
-    return r;
+    return (!r ? mod : r);
 }
 
 void DFS(int x, int y) {
