@@ -11,7 +11,6 @@ bool vis[maxn][maxn], have_ans;
 vector<Node> ans;
 
 void printAns() {
-    // ans.pop_back();
     for (Node node: ans) {
         cout << "(" << node.x << "," << node.y << ")";
         if (node.x != ex || node.y != ey) {
