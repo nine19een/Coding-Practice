@@ -1,3 +1,8 @@
+// Problem:  Luogu P1238 走迷宫
+// Link:     https://www.luogu.com.cn/problem/P1238
+// Author:   nine19een
+// Date:     2026-03-25
+
 #include <bits/stdc++.h>
 using namespace std;
 constexpr int maxn = 20;

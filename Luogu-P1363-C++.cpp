@@ -1,3 +1,8 @@
+// Problem:  Luogu P1363 幻象迷宫
+// Link:     https://www.luogu.com.cn/problem/P1363
+// Author:   nine19een
+// Date:     2026-03-24
+
 #include<bits/stdc++.h>
 using namespace std;
 constexpr int maxn = 1505;
