@@ -1,3 +1,8 @@
+// Problem:  AtCoder Beginner Contest 451 B - Personnel Change
+// Link:     https://atcoder.jp/contests/abc451/tasks/abc451_b
+// Author:   nine19een
+// Date:     2026-03-28
+
 #include <bits/stdc++.h>
 using namespace std;
 constexpr int maxm = 105;

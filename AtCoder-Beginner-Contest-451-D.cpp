@@ -1,3 +1,8 @@
+// Problem:  AtCoder Beginner Contest 451 D - Concat Power of 2
+// Link:     https://atcoder.jp/contests/abc451/tasks/abc451_d
+// Author:   nine19een
+// Date:     2026-03-28
+
 #include <bits/stdc++.h>
 using namespace std;
 using ll = long long;
