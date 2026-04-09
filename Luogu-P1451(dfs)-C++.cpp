@@ -1,0 +1,48 @@
+// Problem:  Luogu P1451 求细胞数量
+// Link:     https://www.luogu.com.cn/problem/P1451
+// Author:   nine19een
+// Date:     2026-04-09
+// Method:   DFS
+
+#include<bits/stdc++.h>
+using namespace std;
+constexpr int maxn = 105;
+
+int n, m, dx[] = {1, 0, -1, 0}, dy[] = {0, 1, 0, -1}, cnt;
+char maze[maxn][maxn];
+bool vis[maxn][maxn];
+
+bool available(int x, int y) {
+    return x >= 1 && x <= n && y >= 1 && y <= m && !vis[x][y] && maze[x][y] >= '1' && maze[x][y] <= '9';
+}
+
+void DFS(int x, int y) {
+    vis[x][y] = true;
+    for (int i = 0; i < 4; ++i) {
+        int nx = x + dx[i], ny = y + dy[i];
+        if (available(nx, ny)) {
+            DFS(nx, ny);
+        }
+    }
+}
+
+int main() {
+    ios_base::sync_with_stdio(0);
+    cin.tie(nullptr);
+    cin >> n >> m;
+    for (int i = 1; i <= n; ++i) {
+        for (int j = 1; j <= m; ++j) {
+            cin >> maze[i][j];
+        }
+    }
+    for (int i = 1; i <= n; ++i) {
+        for (int j = 1; j <= m; ++j) {
+            if (!vis[i][j] && maze[i][j] != '0') {
+                DFS(i, j);
+                cnt++;
+            }
+        }
+    }
+    cout << cnt;
+    return 0;
+}
