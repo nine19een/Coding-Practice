@@ -1,3 +1,8 @@
+// Problem:  AtCoder Beginner Contest 457 D - Raise Minimum
+// Link:     https://atcoder.jp/contests/abc457/tasks/abc457_d
+// Author:   nine19een
+// Date:     2026-05-09
+
 #include <bits/stdc++.h>
 using namespace std;
 using ll = long long;
