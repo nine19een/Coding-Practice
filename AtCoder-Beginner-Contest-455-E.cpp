@@ -6,9 +6,9 @@
 #include <bits/stdc++.h>
 using namespace std;
 using ll = long long;
-constexpr ll maxn = 2e5 + 5, offset = 200005, base = 500005;
+constexpr ll offset = 200005, base = 500005;
 
-int n, preA[maxn], preB[maxn], preC[maxn];
+int n, preA, preB, preC;
 ll tot, tot2, tot3;
 string s;
 unordered_map<int, ll> mpAB, mpBC, mpCA;
@@ -26,12 +26,12 @@ void init() {
     tot = 1ll * n * (n + 1) / 2;
 }
 
-void cnt(int idx) {
-    int d1 = preA[idx] - preB[idx];
+void cnt() {
+    int d1 = preA - preB;
     tot2 += mpAB[d1]++;
-    int d2 = preB[idx] - preC[idx];
+    int d2 = preB - preC;
     tot2 += mpBC[d2]++;
-    int d3 = preC[idx] - preA[idx];
+    int d3 = preC - preA;
     tot2 += mpCA[d3]++;
     tot3 += mpABC[getKey(d1, d2)]++;
 }
@@ -42,18 +42,14 @@ int main() {
     cin >> n >> s;
     init();
     for (int i = 0; i < n; i++) {
-        int idx = i + 1;
-        preA[idx] = preA[i];
-        preB[idx] = preB[i];
-        preC[idx] = preC[i];
         if (s[i] == 'A') {
-            preA[idx]++;
+            preA++;
         } else if (s[i] == 'B') {
-            preB[idx]++;
+            preB++;
         } else {
-            preC[idx]++;
+            preC++;
         }
-        cnt(idx);
+        cnt();
     }
     cout << tot - tot2 + tot3 * 2;
     return 0;
