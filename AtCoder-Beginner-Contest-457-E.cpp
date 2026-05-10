@@ -73,21 +73,14 @@ bool Joint(int l, int r) {
         return false;
     }
     --it_r;
-    if (*it_r + 1 >= *it_l) {
-        return true;
-    }
-    return false;
+    return *it_r + 1 >= *it_l;
 }
 
 bool Exact(int l, int r, const Fenwick &bit) {
     if (!exact_LR.count(Key(l, r))) {
         return false;
     }
-    if (bit.query(r) > 1) {
-        return true;
-    } else {
-        return false;
-    }
+    return bit.query(r) > 1;
 }
 
 void Solve() {
