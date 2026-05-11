@@ -1,4 +1,4 @@
-// Problem:  蓝桥杯 2026 省 B - F.应急布线
+// Problem:  蓝桥杯 2026 省 B F题 - 应急布线
 // Link:     https://www.luogu.com.cn/problem/P16237
 // Author:   nine19een
 // Date:     2026-05-11

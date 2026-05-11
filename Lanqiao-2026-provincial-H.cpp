@@ -1,4 +1,4 @@
-// Problem:  蓝桥杯 2026 省 B - H.足球训练
+// Problem:  蓝桥杯 2026 省 B H题 - 足球训练
 // Link:     https://www.luogu.com.cn/problem/P16239
 // Author:   nine19een
 // Date:     2026-05-11

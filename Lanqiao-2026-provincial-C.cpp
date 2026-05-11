@@ -1,4 +1,4 @@
-// Problem:  蓝桥杯 2026 省 B - C.循环右移
+// Problem:  蓝桥杯 2026 省 B C题 - 循环右移
 // Link:     https://www.luogu.com.cn/problem/P16234
 // Author:   nine19een
 // Date:     2026-05-11

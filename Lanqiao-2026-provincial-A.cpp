@@ -1,4 +1,4 @@
-// Problem:  蓝桥杯 2026 省 B - A.青春常数
+// Problem:  蓝桥杯 2026 省 B A题 - 青春常数
 // Link:     https://www.luogu.com.cn/problem/P16232
 // Author:   nine19een
 // Date:     2026-05-11

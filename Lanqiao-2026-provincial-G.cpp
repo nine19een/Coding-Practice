@@ -1,4 +1,4 @@
-// Problem:  蓝桥杯 2026 省 B - G.理想温度
+// Problem:  蓝桥杯 2026 省 B G题 - 理想温度
 // Link:     https://www.luogu.com.cn/problem/P16238
 // Author:   nine19een
 // Date:     2026-05-11

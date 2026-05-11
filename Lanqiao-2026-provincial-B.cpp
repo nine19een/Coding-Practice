@@ -1,4 +1,4 @@
-// Problem:  蓝桥杯 2026 省 B - B.双碳战略
+// Problem:  蓝桥杯 2026 省 B B题 - 双碳战略
 // Link:     https://www.luogu.com.cn/problem/P16233
 // Author:   nine19een
 // Date:     2026-05-11

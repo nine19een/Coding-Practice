@@ -1,4 +1,4 @@
-// Problem:  蓝桥杯 2026 省 B - D.蓝桥竞技
+// Problem:  蓝桥杯 2026 省 B D题 - 蓝桥竞技
 // Link:     https://www.luogu.com.cn/problem/P16235
 // Author:   nine19een
 // Date:     2026-05-11

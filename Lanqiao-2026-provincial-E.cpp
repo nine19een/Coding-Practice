@@ -1,4 +1,4 @@
-// Problem:  蓝桥杯 2026 省 B - E.LQ 聚合
+// Problem:  蓝桥杯 2026 省 B E题 - LQ 聚合
 // Link:     https://www.luogu.com.cn/problem/P16236
 // Author:   nine19een
 // Date:     2026-05-11
