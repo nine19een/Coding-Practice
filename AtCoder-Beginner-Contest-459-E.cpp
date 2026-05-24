@@ -6,12 +6,12 @@
 #include<bits/stdc++.h>
 using namespace std;
 using ll = long long;
-constexpr ll maxn = 2e5 + 5, maxd = 1e6 + 5, MOD = 998244353;
+constexpr int maxn = 2e5 + 5, maxd = 1e6 + 5, MOD = 998244353;
 
-ll n, fac[maxd], ifac[maxd], c[maxn], d[maxn];
+int n;
+ll fac = 1, ifac[maxd], c[maxn], d[maxn], ans = 1;
 bool noAns;
 vector<int> adj[maxn];
-vector<pair<ll, ll> > allC;
 
 ll qpow(ll a, ll b) {
     ll res = 1;
@@ -27,33 +27,16 @@ ll qpow(ll a, ll b) {
 }
 
 void init() {
-    fac[0] = 1;
     ifac[0] = 1;
     for (int i = 1; i < maxd; ++i) {
-        fac[i] = fac[i - 1] * i % MOD;
+        fac = fac * i % MOD;
     }
-    ifac[maxd - 1] = qpow(fac[maxd - 1], MOD - 2);
+    ifac[maxd - 1] = qpow(fac, MOD - 2);
     for (int i = maxd - 2; i >= 0; --i) {
         ifac[i] = ifac[i + 1] * (i + 1) % MOD;
     }
 }
 
-void DP(int u, int f) {
-    for (int v: adj[u]) {
-        if (v != f) {
-            DP(v, u);
-            if (noAns) {
-                return;
-            }
-            c[u] += c[v] - d[v];
-        }
-    }
-    if (c[u] < d[u]) {
-        noAns = true;
-        return;
-    }
-    allC.emplace_back(c[u], d[u]);
-}
 
 ll C(ll m, ll k) {
     if (k < 0 || m < k) {
@@ -66,12 +49,19 @@ ll C(ll m, ll k) {
     return res * ifac[k] % MOD;
 }
 
-ll Ans() {
-    ll res = 1;
-    for (auto p: allC) {
-        res = res * C(p.first, p.second) % MOD;
+void DP(int u) {
+    for (int v: adj[u]) {
+        DP(v);
+        if (noAns) {
+            return;
+        }
+        c[u] += c[v] - d[v];
     }
-    return res;
+    if (c[u] < d[u]) {
+        noAns = true;
+        return;
+    }
+    ans = ans * C(c[u], d[u]) % MOD;
 }
 
 int main() {
@@ -82,7 +72,6 @@ int main() {
         int p;
         cin >> p;
         adj[p].push_back(i);
-        adj[i].push_back(p);
     }
     for (int i = 1; i <= n; ++i) {
         cin >> c[i];
@@ -91,10 +80,10 @@ int main() {
         cin >> d[i];
     }
     init();
-    DP(1, 0);
+    DP(1);
     if (noAns) {
         cout << 0;
     } else {
-        cout << Ans();
+        cout << ans;
     }
 }
