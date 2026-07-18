@@ -1,3 +1,8 @@
+// Problem:  AtCoder Beginner Contest 467 C - Adjacent Sums (easy)
+// Link:     https://atcoder.jp/contests/abc467/tasks/abc467_c
+// Author:   nine19een
+// Date:     2026-07-18
+
 #include <bits/stdc++.h>
 using namespace std;
 constexpr int maxn = 2e5 + 5;

@@ -1,3 +1,8 @@
+// Problem:  AtCoder Beginner Contest 467 D - Concentric Circles
+// Link:     https://atcoder.jp/contests/abc467/tasks/abc467_d
+// Author:   nine19een
+// Date:     2026-07-18
+
 #include <bits/stdc++.h>
 using namespace std;
 using ll = long long;
