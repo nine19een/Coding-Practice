@@ -1,51 +1,46 @@
-// Problem:  Luogu P2085 最小函数值
-// Link:     https://www.luogu.com.cn/problem/P2085
-// Author:   nine19een
-// Date:     2026-01-14
+// Luogu P2085 - 最小函数值
+// https://www.luogu.com.cn/problem/P2085
 
 #include <bits/stdc++.h>
 using namespace std;
 using ll = long long;
-const int maxn = 1e4 + 5;
+constexpr int maxn = 1e4 + 5;
 
-struct Function {
-    ll f_num, x, val;
-};
+struct Num {
+    ll val, id;
+    int x;
 
-struct cmp {
-    bool operator()(const Function &a, const Function &b) {
-        return a.val > b.val;
+    bool operator > (const Num &other) const {
+        return val > other.val;
     }
 };
 
 int n, m, a[maxn], b[maxn], c[maxn];
+Num f[maxn];
+priority_queue<Num, vector<Num>, greater<Num>> pq;
 
-ll F(ll num, ll x) {
-    return a[num] * x * x + b[num] * x + c[num];
+ll F(int A, int B, int C, int x) {
+    return A * x * x + B * x + C;
 }
-
-void findMin() {
-    priority_queue<Function, vector<Function>, cmp> pq;
-    for (int i = 1; i <= n; i++) {
-        pq.push({i, 1, a[i] + b[i] + c[i]});
-    }
-    int cnt = 1;
-    while (cnt <= m) {
-        auto t = pq.top();
-        pq.pop();
-        cout << t.val << " ";
-        cnt++;
-        pq.push({t.f_num, t.x + 1, F(t.f_num, t.x + 1)});
-    }
-};
 
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
     cin >> n >> m;
-    for (int i = 1; i <= n; i++) {
+    for (int i = 1; i <= n; ++i) {
         cin >> a[i] >> b[i] >> c[i];
+        pq.push(Num{F(a[i], b[i], c[i], 1), i, 1});
     }
-    findMin();
+    int cnt = 0;
+    while (!pq.empty()) {
+        Num t = pq.top();
+        pq.pop();
+        cout << t.val << " ";
+        cnt++;
+        if (cnt == m) {
+            break;
+        }
+        pq.push(Num{F(a[t.id], b[t.id], c[t.id], t.x + 1), t.id, t.x + 1});
+    }
     return 0;
 }

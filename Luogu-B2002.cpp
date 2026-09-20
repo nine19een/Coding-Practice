@@ -1,11 +1,12 @@
-// Problem:  Luogu B2002 Hello,World!
-// Link:     https://www.luogu.com.cn/problem/B2002
-// Author:   nine19een
-// Date:     2025-07-02
+// Luogu B2002 - Hello,World!
+// https://www.luogu.com.cn/problem/B2002
 
-#include<iostream>
+#include <bits/stdc++.h>
 using namespace std;
+
 int main() {
-	cout<<"Hello,World!"<<endl;
-	return 0;
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    cout << "Hello,World!";
+    return 0;
 }

@@ -1,29 +1,29 @@
-// Problem:  Luogu P1102 A-B 数对
-// Link:     https://www.luogu.com.cn/problem/P1102
-// Author:   nine19een
-// Date:     2025-11-22
+// Luogu P1102 - A-B 数对
+// https://www.luogu.com.cn/problem/P1102
 
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 using ll = long long;
+constexpr int maxn = 2e5 + 5;
 
-ll n, c, cnt;
-unordered_map<ll, ll> umap;
+int n, c, a[maxn];
+unordered_map<int, int> cnt;
+ll sum;
 
 int main() {
-    ios_base::sync_with_stdio(false);
+    ios::sync_with_stdio(false);
     cin.tie(nullptr);
     cin >> n >> c;
-    vector<ll> v(n);
-    for (int i = 0; i < n; i++) {
-        cin >> v[i];
-        umap[v[i]]++;
+    for (int i = 1; i <= n; ++i) {
+        cin >> a[i];
+        cnt[a[i]]++;
     }
-    sort(v.begin(), v.end());
-    v.erase(unique(v.begin(), v.end()), v.end());
-    for (int p : v) {
-        cnt += umap[p] * umap[p + c];
+    for (int i = 1; i <= n; ++i) {
+        int A = a[i] + c;
+        if (cnt.count(A)) {
+            sum += cnt[A];
+        }
     }
-    cout << cnt;
+    cout << sum;
     return 0;
 }

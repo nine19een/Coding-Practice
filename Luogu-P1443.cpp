@@ -1,70 +1,45 @@
-// Problem:  Luogu P1443 马的遍历
-// Link:     https://www.luogu.com.cn/problem/P1443
-// Author:   nine19een
-// Date:     2025-08-25
+// Luogu P1443 - 马的遍历
+// https://www.luogu.com.cn/problem/P1443
 
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
+constexpr int maxn = 405;
 
-struct Point{
-	int x, y, d;
+int n, m, sx, sy, grid[maxn][maxn], dx[] = {-2, -1, 1, 2, 2, 1, -1, -2}, dy[] = {1, 2, 2, 1, -1, -2, -2, -1};
+
+bool inRange(int x, int y) {
+    return x >= 1 && x <= n && y >= 1 && y <= m;
+}
+
+struct Node {
+    int x, y, step;
 };
-int n, m, x_start, y_start;
-queue<Point>q;
-unordered_map<int, int>visited;
 
-int xyToll(int x, int y){
-	return x * 401 + y;
-}
-
-bool Available(Point p, int xy){
-	if(p.x < 1 || p.x > n || p.y < 1 || p.y > m || visited.count(xy)){
-		return false;
-	}
-	return true;
-}
-
-void rideHorse(Point p){
-	int dx[] = {1, 2, 2, 1, -1, -2, -2, -1}, dy[] = {-2, -1, 1, 2, 2, 1, -1, -2};
-	for(int i = 0; i <= 7; ++i){
-		int new_pd = p.d;
-		new_pd++;
-		Point footprint = {p.x + dx[i], p.y + dy[i], new_pd};
-		int fp = xyToll(p.x + dx[i], p.y + dy[i]);
-		if(Available(footprint, fp)){
-			q.push(footprint);
-			visited[fp] = footprint.d;
-		}
-	}
-}
-
-void printANS(){
-	for(int i = 1; i <= n; ++i){
-		for(int j = 1; j <= m; ++j){
-			int xy = xyToll(i, j);
-			if(!visited.count(xy)){
-				cout << -1 << " ";
-			}
-			else{
-				cout << visited[xy] << " ";
-			}
-		}
-		cout << '\n';
-	}
-}
-
-int main(){
-	ios_base::sync_with_stdio(0);
-	cin.tie(NULL);
-	cin >> n >> m >> x_start >> y_start;
-	Point p_start = {x_start, y_start, 0};
-	q.push(p_start);
-	visited[xyToll(x_start, y_start)] = 0;
-	while(!q.empty()){
-		Point old_horse = q.front();
-		rideHorse(old_horse);
-		q.pop();
-	}
-	printANS();
-	return 0;
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    memset(grid, -1, sizeof(grid));
+    cin >> n >> m >> sx >> sy;
+    queue<Node> q;
+    q.push(Node{sx, sy, 0});
+    while (!q.empty()) {
+        Node t = q.front();
+        q.pop();
+        if (grid[t.x][t.y] == -1) {
+            grid[t.x][t.y] = t.step;
+            for (int i = 0; i < 8; ++i) {
+                int nx = t.x + dx[i], ny = t.y + dy[i];
+                if (inRange(nx, ny)) {
+                    q.push(Node{nx, ny, t.step + 1});
+                }
+            }
+        }
+    }
+    for (int i = 1; i <= n; ++i) {
+        for (int j = 1; j <= m; ++j) {
+            cout << grid[i][j] << " ";
+        }
+        cout << '\n';
+    }
+    return 0;
 }
