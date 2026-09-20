@@ -1,0 +1,41 @@
+name: Update problem index
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'solutions/**/*.cpp'
+      - 'scripts/build_index.py'
+      - 'config/problem-overrides.json'
+      - '.github/workflows/update-index.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-problem-index-main
+  cancel-in-progress: false
+
+jobs:
+  update-index:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: main
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - name: Generate index
+        run: python scripts/build_index.py
+      - name: Commit changed index
+        shell: bash
+        run: |
+          git add -- docs/index.md
+          if git diff --cached --quiet -- docs/index.md; then
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'docs: update problem index [skip ci]' -- docs/index.md
+          git push origin HEAD:main

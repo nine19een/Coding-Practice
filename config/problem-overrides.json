@@ -1,0 +1,13 @@
+{
+  "note": "Explicit corrections; source headers stay unchanged. Six known URL errors: Round 1074 is contest 2185; SP2815 is INCSEQ (correct mirror: https://www.luogu.com.cn/problem/SP2815, not P4054). The index cross-check also found a P9242 typo in P9243's Problem line; its URL, historical row and official page agree on P9243.",
+  "source": "https://github.com/nine19een/nine19een/blob/fd4d6a58eadc4314414b887e9d6cd0b48a4ad5bf/archive/coding-practice-log.md",
+  "overrides": {
+    "solutions/codeforces/Codeforces-Round-1074-A.cpp": {"url": "https://codeforces.com/contest/2185/problem/A"},
+    "solutions/codeforces/Codeforces-Round-1074-B.cpp": {"url": "https://codeforces.com/contest/2185/problem/B"},
+    "solutions/codeforces/Codeforces-Round-1074-C.cpp": {"url": "https://codeforces.com/contest/2185/problem/C"},
+    "solutions/codeforces/Codeforces-Round-1074-D.cpp": {"url": "https://codeforces.com/contest/2185/problem/D"},
+    "solutions/codeforces/Codeforces-Round-1074-E.cpp": {"url": "https://codeforces.com/contest/2185/problem/E"},
+    "solutions/spoj/SP-2815.cpp": {"url": "https://www.spoj.com/problems/INCSEQ/"},
+    "solutions/luogu/Luogu-P9243.cpp": {"title": "Luogu P9243 [蓝桥杯 2023 省 B] 岛屿个数", "source": "https://www.luogu.com.cn/problem/P9243"}
+  }
+}
