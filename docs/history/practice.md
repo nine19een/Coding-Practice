@@ -12,7 +12,7 @@ Historical snapshot migrated from the old Profile README; no longer updated manu
 
 Records, their order, dates, titles, results, links and badges are preserved as recorded, including repeated entries, old domains and any original inconsistencies. Historical rankings and figures have not been revalidated.
 
-[Back to profile](../README.md) · [Contest history](contest-history.md)
+[Back to Coding Practice](../../README.md) · [Contest history](contests.md)
 
 Historical label from the old profile (not a current or exact problem count):
 
