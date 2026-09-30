@@ -518,6 +518,7 @@ Unknown problem metadata is left unconfirmed; original headers are not changed.
 | P5318 | [【深基18.例3】查找文献](https://www.luogu.com.cn/problem/P5318) | — | [Code](../solutions/luogu/Luogu-P5318.cpp) |
 | P5459 | [\[BJOI2016\] 回转寿司](https://www.luogu.com.cn/problem/P5459) | — | [Code](../solutions/luogu/Luogu-P5459.cpp) |
 | P5711 | [【深基3.例3】闰年判断](https://www.luogu.com.cn/problem/P5711) | — | [Code](../solutions/luogu/Luogu-P5711.cpp) |
+| P5716 | [【深基3.例9】月份天数](https://www.luogu.com.cn/problem/P5716) | — | [Code](../solutions/luogu/Luogu-P5719.cpp) |
 | P5719 | [【深基4.例3】分类平均](https://www.luogu.com.cn/problem/P5719) | C-style (legacy) | [Code](../solutions/luogu/Luogu-P5719_%28C%29.cpp) |
 | P5720 | [【深基4.例4】一尺之棰](https://www.luogu.com.cn/problem/P5720) | — | [Code](../solutions/luogu/Luogu-P5720.cpp) |
 | P5721 | [【深基4.例6】数字直角三角形](https://www.luogu.com.cn/problem/P5721) | — | [Code](../solutions/luogu/Luogu-P5721.cpp) |
@@ -525,11 +526,13 @@ Unknown problem metadata is left unconfirmed; original headers are not changed.
 | P5723 | [【深基4.例13】质数口袋](https://www.luogu.com.cn/problem/P5723) | — | [Code](../solutions/luogu/Luogu-P5723.cpp) |
 | P5724 | [【深基4.习5】求极差 / 最大跨度值 / 最大值和最小值的差](https://www.luogu.com.cn/problem/P5724) | C-style (legacy) | [Code](../solutions/luogu/Luogu-P5724_%28C%29.cpp) |
 | P5725 | [【深基4.习8】求三角形](https://www.luogu.com.cn/problem/P5725) | C-style (legacy) | [Code](../solutions/luogu/Luogu-P5725_%28C%29.cpp) |
+| P5726 | [【深基4.习9】打分](https://www.luogu.com.cn/problem/P5726) | — | [Code](../solutions/luogu/Luogu-P5726.cpp) |
 | P5727 | [【深基5.例3】冰雹猜想](https://www.luogu.com.cn/problem/P5727) | — | [Code](../solutions/luogu/Luogu-P5727.cpp) |
 | P5727 | [【深基5.例3】冰雹猜想](https://www.luogu.com.cn/problem/P5727) | C-style (legacy) | [Code](../solutions/luogu/Luogu-P5727_%28C%29.cpp) |
 | P5728 | [【深基5.例5】旗鼓相当的对手](https://www.luogu.com.cn/problem/P5728) | — | [Code](../solutions/luogu/Luogu-P5728.cpp) |
 | P5731 | [【深基5.习6】蛇形方阵](https://www.luogu.com.cn/problem/P5731) | — | [Code](../solutions/luogu/Luogu-P5731.cpp) |
 | P5731 | [【深基5.习6】蛇形方阵](https://www.luogu.com.cn/problem/P5731) | C-style (legacy) | [Code](../solutions/luogu/Luogu-P5731_%28C%29.cpp) |
+| P5732 | [【深基5.习7】杨辉三角](https://www.luogu.com.cn/problem/P5732) | — | [Code](../solutions/luogu/Luogu-P5732.cpp) |
 | P5733 | [【深基6.例1】自动修正](https://www.luogu.com.cn/problem/P5733) | — | [Code](../solutions/luogu/Luogu-P5733.cpp) |
 | P5734 | [【深基6.例6】文字处理软件](https://www.luogu.com.cn/problem/P5734) | — | [Code](../solutions/luogu/Luogu-P5734.cpp) |
 | P5736 | [P5736 【深基7.例2】质数筛](https://www.luogu.com.cn/problem/P5736) | — | [Code](../solutions/luogu/Luogu-P5736.cpp) |
