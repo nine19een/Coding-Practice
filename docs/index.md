@@ -323,6 +323,7 @@ Unknown problem metadata is left unconfirmed; original headers are not changed.
 | P1182 | [数列分段 Section II](https://www.luogu.com.cn/problem/P1182) | — | [Code](../solutions/luogu/Luogu-P1182.cpp) |
 | P1200 | [\[USACO1.1\] 你的飞碟在这儿 Your Ride Is Here](https://www.luogu.com.cn/problem/P1200) | — | [Code](../solutions/luogu/Luogu-P1200.cpp) |
 | P1204 | [\[USACO1.2\] 挤牛奶 Milking Cows](https://www.luogu.com.cn/problem/P1204) | — | [Code](../solutions/luogu/Luogu-P1204.cpp) |
+| P1205 | [\[USACO1.2\] 方块转换 Transformations](https://www.luogu.com.cn/problem/P1205) | — | [Code](../solutions/luogu/Luogu-P1205.cpp) |
 | P1208 | [\[USACO1.3\] 混合牛奶 Mixing Milk](https://www.luogu.com.cn/problem/P1208) | — | [Code](../solutions/luogu/Luogu-P1208.cpp) |
 | P12085 | [\[蓝桥杯 2023 省 B\] 整数删除](https://www.luogu.com.cn/problem/P12085) | — | [Code](../solutions/luogu/Luogu-P12085.cpp) |
 | P12132 | [\[蓝桥杯 2025 省 B\] 可分解的正整数](https://www.luogu.com.cn/problem/P12132) | — | [Code](../solutions/luogu/Luogu-P12132.cpp) |
