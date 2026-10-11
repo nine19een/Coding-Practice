@@ -251,6 +251,7 @@ Unknown problem metadata is left unconfirmed; original headers are not changed.
 | P1000 | [超级玛丽游戏](https://www.luogu.com.cn/problem/P1000) | — | [Code](../solutions/luogu/Luogu-P1000.cpp) |
 | P1001 | [A+B Problem](https://www.luogu.com.cn/problem/P1001) | — | [Code](../solutions/luogu/Luogu-P1001.cpp) |
 | P1002 | [\[NOIP 2002 普及组\] 过河卒](https://www.luogu.com.cn/problem/P1002) | — | [Code](../solutions/luogu/Luogu-P1002.cpp) |
+| P1007 | [独木桥](https://www.luogu.com.cn/problem/P1007) | — | [Code](../solutions/luogu/Luogu-P1007.cpp) |
 | P1008 | [\[NOIP 1998 普及组\] 三连击](https://www.luogu.com.cn/problem/P1008) | — | [Code](../solutions/luogu/Luogu-P1008.cpp) |
 | P1009 | [\[NOIP 1998 普及组\] 阶乘之和](https://www.luogu.com.cn/problem/P1009) | — | [Code](../solutions/luogu/Luogu-P1009.cpp) |
 | P1012 | [\[NOIP 1998 提高组\] 拼数](https://www.luogu.com.cn/problem/P1012) | 手写冒泡排序 | [Code](../solutions/luogu/Luogu-P1012%28BubbleSort%29.cpp) |
@@ -299,6 +300,7 @@ Unknown problem metadata is left unconfirmed; original headers are not changed.
 | P11044 | [\[蓝桥杯 2024 省 Java B\] 食堂](https://www.luogu.com.cn/problem/P11044) | — | [Code](../solutions/luogu/Luogu-P11044.cpp) |
 | P1115 | [最大子段和](https://www.luogu.com.cn/problem/P1115) | — | [Code](../solutions/luogu/Luogu-P1115.cpp) |
 | P1115 | [最大子段和](https://www.luogu.com.cn/problem/P1115) | C-style (legacy) | [Code](../solutions/luogu/Luogu-P1115_%28C%29.cpp) |
+| P1116 | [车厢重组](https://www.luogu.com.cn/problem/P1116) | — | [Code](../solutions/luogu/Luogu-P1116.cpp) |
 | P11199 | [\[JOIG 2024\] ダンス / Dance](https://www.luogu.com.cn/problem/P11199) | — | [Code](../solutions/luogu/Luogu-P11199.cpp) |
 | P1121 | [环状最大两段子段和](https://www.luogu.com.cn/problem/P1121) | — | [Code](../solutions/luogu/Luogu-P1121.cpp) |
 | P1122 | [最大子树和](https://www.luogu.com.cn/problem/P1122) | — | [Code](../solutions/luogu/Luogu-P1122.cpp) |
@@ -310,6 +312,7 @@ Unknown problem metadata is left unconfirmed; original headers are not changed.
 | P1143 | [进制转换](https://www.luogu.com.cn/problem/P1143) | — | [Code](../solutions/luogu/Luogu-P1143.cpp) |
 | P1144 | [最短路计数](https://www.luogu.com.cn/problem/P1144) | — | [Code](../solutions/luogu/Luogu-P1144.cpp) |
 | P1147 | [连续自然数和](https://www.luogu.com.cn/problem/P1147) | — | [Code](../solutions/luogu/Luogu-P1147.cpp) |
+| P1149 | [\[NOIP 2008 提高组\] 火柴棒等式](https://www.luogu.com.cn/problem/P1149) | — | [Code](../solutions/luogu/Luogu-P1149.cpp) |
 | P1150 | [Peter 的烟](https://www.luogu.com.cn/problem/P1150) | — | [Code](../solutions/luogu/Luogu-P1150.cpp) |
 | P1152 | [欢乐的跳](https://www.luogu.com.cn/problem/P1152) | — | [Code](../solutions/luogu/Luogu-P1152.cpp) |
 | P1157 | [组合的输出](https://www.luogu.com.cn/problem/P1157) | — | [Code](../solutions/luogu/Luogu-P1157.cpp) |
@@ -431,7 +434,9 @@ Unknown problem metadata is left unconfirmed; original headers are not changed.
 | P1972 | [\[SDOI2009\] HH 的项链](https://www.luogu.com.cn/problem/P1972) | — | [Code](../solutions/luogu/Luogu-P1972.cpp) |
 | P1983 | [\[NOIP 2013 普及组\] 车站分级](https://www.luogu.com.cn/problem/P1983) | — | [Code](../solutions/luogu/Luogu-P1983.cpp) |
 | P1996 | [约瑟夫问题](https://www.luogu.com.cn/problem/P1996) | — | [Code](../solutions/luogu/Luogu-P1996.cpp) |
+| P2010 | [\[NOIP 2016 普及组\] 回文日期](https://www.luogu.com.cn/problem/P2010) | — | [Code](../solutions/luogu/Luogu-P2010.cpp) |
 | P2014 | [P2014 \[CTSC1997\] 选课](https://www.luogu.com.cn/problem/P2014) | — | [Code](../solutions/luogu/Luogu-P2014.cpp) |
+| P2036 | [\[COCI 2008/2009 #2\] PERKET](https://www.luogu.com.cn/problem/P2036) | — | [Code](../solutions/luogu/Luogu-P2036.cpp) |
 | P2068 | [统计和](https://www.luogu.com.cn/problem/P2068) | — | [Code](../solutions/luogu/Luogu-P2068.cpp) |
 | P2085 | [最小函数值](https://www.luogu.com.cn/problem/P2085) | — | [Code](../solutions/luogu/Luogu-P2085.cpp) |
 | P2141 | [\[NOIP 2014 普及组\] 珠心算测验](https://www.luogu.com.cn/problem/P2141) | — | [Code](../solutions/luogu/Luogu-P2141.cpp) |
