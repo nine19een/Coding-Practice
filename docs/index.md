@@ -280,6 +280,7 @@ Unknown problem metadata is left unconfirmed; original headers are not changed.
 | P1063 | [\[NOIP 2006 提高组\] 能量项链](https://www.luogu.com.cn/problem/P1063) | — | [Code](../solutions/luogu/Luogu-P1063.cpp) |
 | P1064 | [\[NOIP 2006 提高组\] 金明的预算方案](https://www.luogu.com.cn/problem/P1064) | — | [Code](../solutions/luogu/Luogu-P1064.cpp) |
 | P1067 | [\[NOIP 2009 普及组\] 多项式输出](https://www.luogu.com.cn/problem/P1067) | — | [Code](../solutions/luogu/Luogu-P1067.cpp) |
+| P1068 | [\[NOIP 2009 普及组\] 分数线划定](https://www.luogu.com.cn/problem/P1068) | — | [Code](../solutions/luogu/Luogu-P1068.cpp) |
 | P1077 | [\[NOIP 2012 普及组\] 摆花](https://www.luogu.com.cn/problem/P1077) | — | [Code](../solutions/luogu/Luogu-P1077.cpp) |
 | P1083 | [\[NOIP 2012 提高组\] 借教室](https://www.luogu.com.cn/problem/P1083) | — | [Code](../solutions/luogu/Luogu-P1083.cpp) |
 | P1083 | [\[NOIP 2012 提高组\] 借教室](https://www.luogu.com.cn/problem/P1083) | legacy: rewrite | [Code](../solutions/luogu/Luogu-P1083%28rewrite%29.cpp) |
@@ -296,6 +297,7 @@ Unknown problem metadata is left unconfirmed; original headers are not changed.
 | P1094 | [\[NOIP 2007 普及组\] 纪念品分组](https://www.luogu.com.cn/problem/P1094) | — | [Code](../solutions/luogu/Luogu-P1094.cpp) |
 | P11001 | [\[蓝桥杯 2024 省 Python B\] 连连看](https://www.luogu.com.cn/problem/P11001) | — | [Code](../solutions/luogu/Luogu-P11001.cpp) |
 | P1102 | [A-B 数对](https://www.luogu.com.cn/problem/P1102) | — | [Code](../solutions/luogu/Luogu-P1102.cpp) |
+| P1104 | [生日](https://www.luogu.com.cn/problem/P1104) | — | [Code](../solutions/luogu/Luogu-P1104.cpp) |
 | P11042 | [\[蓝桥杯 2024 省 Java B\] 类斐波那契循环数](https://www.luogu.com.cn/problem/P11042) | — | [Code](../solutions/luogu/Luogu-P11042.cpp) |
 | P11044 | [\[蓝桥杯 2024 省 Java B\] 食堂](https://www.luogu.com.cn/problem/P11044) | — | [Code](../solutions/luogu/Luogu-P11044.cpp) |
 | P1115 | [最大子段和](https://www.luogu.com.cn/problem/P1115) | — | [Code](../solutions/luogu/Luogu-P1115.cpp) |
@@ -341,6 +343,7 @@ Unknown problem metadata is left unconfirmed; original headers are not changed.
 | P12163 | [\[蓝桥杯 2025 省 C/Java A\] 2025](https://www.luogu.com.cn/problem/P12163) | — | [Code](../solutions/luogu/Luogu-P12163.cpp) |
 | P12164 | [\[蓝桥杯 2025 省 C/Python A\] 2025 图形](https://www.luogu.com.cn/problem/P12164) | — | [Code](../solutions/luogu/Luogu-P12164.cpp) |
 | P1219 | [\[USACO1.5\] 八皇后 Checker Challenge](https://www.luogu.com.cn/problem/P1219) | — | [Code](../solutions/luogu/Luogu-P1219.cpp) |
+| P1223 | [排队接水](https://www.luogu.com.cn/problem/P1223) | — | [Code](../solutions/luogu/Luogu-P1223.cpp) |
 | P1226 | [【模板】快速幂](https://www.luogu.com.cn/problem/P1226) | — | [Code](../solutions/luogu/Luogu-P1226.cpp) |
 | P12280 | [\[蓝桥杯 2024 国 Python A\] 特别的数组](https://www.luogu.com.cn/problem/P12280) | — | [Code](../solutions/luogu/Luogu-P12280.cpp) |
 | P12288 | [\[蓝桥杯 2024 国 Java A\] 栈](https://www.luogu.com.cn/problem/P12288) | — | [Code](../solutions/luogu/Luogu-P12288.cpp) |
@@ -411,6 +414,7 @@ Unknown problem metadata is left unconfirmed; original headers are not changed.
 | P1765 | [手机](https://www.luogu.com.cn/problem/P1765) | — | [Code](../solutions/luogu/Luogu-P1765.cpp) |
 | P1775 | [石子合并（弱化版）](https://www.luogu.com.cn/problem/P1775) | — | [Code](../solutions/luogu/Luogu-P1775.cpp) |
 | P1776 | [宝物筛选](https://www.luogu.com.cn/problem/P1776) | — | [Code](../solutions/luogu/Luogu-P1776.cpp) |
+| P1781 | [宇宙总统](https://www.luogu.com.cn/problem/P1781) | — | [Code](../solutions/luogu/Luogu-P1781.cpp) |
 | P1789 | [【Mc生存】插火把](https://www.luogu.com.cn/problem/P1789) | — | [Code](../solutions/luogu/Luogu-P1789.cpp) |
 | P1802 | [5 倍经验日](https://www.luogu.com.cn/problem/P1802) | — | [Code](../solutions/luogu/Luogu-P1802.cpp) |
 | P1807 | [最长路](https://www.luogu.com.cn/problem/P1807) | — | [Code](../solutions/luogu/Luogu-P1807.cpp) |
