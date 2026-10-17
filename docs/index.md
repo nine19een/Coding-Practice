@@ -117,6 +117,10 @@ Unknown problem metadata is left unconfirmed; original headers are not changed.
 | abc472\_b | [AtCoder Beginner Contest 472 B - Break a Stick](https://atcoder.jp/contests/abc472/tasks/abc472_b) | — | [Code](../solutions/atcoder/AtCoder-Beginner-Contest-472-B.cpp) |
 | abc472\_c | [AtCoder Beginner Contest 472 C - On a Diet](https://atcoder.jp/contests/abc472/tasks/abc472_c) | — | [Code](../solutions/atcoder/AtCoder-Beginner-Contest-472-C.cpp) |
 | abc472\_d | [AtCoder Beginner Contest 472 D - Bomber Mad](https://atcoder.jp/contests/abc472/tasks/abc472_d) | — | [Code](../solutions/atcoder/AtCoder-Beginner-Contest-472-D.cpp) |
+| abc480\_a | [AtCoder Beginner Contest 480 A - ADjacent](https://atcoder.jp/contests/abc480/tasks/abc480_a) | — | [Code](../solutions/atcoder/AtCoder-Beginner-Contest-480-A.cpp) |
+| abc480\_b | [AtCoder Beginner Contest 480 B - Invalid Vote](https://atcoder.jp/contests/abc480/tasks/abc480_b) | — | [Code](../solutions/atcoder/AtCoder-Beginner-Contest-480-B.cpp) |
+| abc480\_c | [AtCoder Beginner Contest 480 C - Self-Stopping Shower](https://atcoder.jp/contests/abc480/tasks/abc480_c) | — | [Code](../solutions/atcoder/AtCoder-Beginner-Contest-480-C.cpp) |
+| abc480\_d | [AtCoder Beginner Contest 480 D - Concatenation of Prefixes](https://atcoder.jp/contests/abc480/tasks/abc480_d) | — | [Code](../solutions/atcoder/AtCoder-Beginner-Contest-480-D.cpp) |
 
 ## CCPC / VJudge
 
