@@ -429,6 +429,7 @@ Unknown problem metadata is left unconfirmed; original headers are not changed.
 | P1835 | [素数密度](https://www.luogu.com.cn/problem/P1835) | — | [Code](../solutions/luogu/Luogu-P1835.cpp) |
 | P1838 | [三子棋I](https://www.luogu.com.cn/problem/P1838) | — | [Code](../solutions/luogu/Luogu-P1838.cpp) |
 | P1851 | [好朋友](https://www.luogu.com.cn/problem/P1851) | — | [Code](../solutions/luogu/Luogu-P1851.cpp) |
+| P1873 | [\[COCI 2011/2012 #5\] EKO / 砍树](https://www.luogu.com.cn/problem/P1873) | — | [Code](../solutions/luogu/Luogu-P1873.cpp) |
 | P1876 | [开灯](https://www.luogu.com.cn/problem/P1876) | — | [Code](../solutions/luogu/Luogu-P1876.cpp) |
 | P1880 | [\[NOI1995\] 石子合并](https://www.luogu.com.cn/problem/P1880) | — | [Code](../solutions/luogu/Luogu-P1880.cpp) |
 | P1886 | [P1886 【模板】单调队列 / 滑动窗口](https://www.luogu.com.cn/problem/P1886) | — | [Code](../solutions/luogu/Luogu-P1886.cpp) |
