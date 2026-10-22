@@ -382,6 +382,7 @@ Unknown problem metadata is left unconfirmed; original headers are not changed.
 | P1427 | [小鱼的数字游戏](https://www.luogu.com.cn/problem/P1427) | — | [Code](../solutions/luogu/Luogu-P1427.cpp) |
 | P1428 | [小鱼比可爱](https://www.luogu.com.cn/problem/P1428) | — | [Code](../solutions/luogu/Luogu-P1428.cpp) |
 | P1434 | [\[SHOI2002\] 滑雪](https://www.luogu.com.cn/problem/P1434) | — | [Code](../solutions/luogu/Luogu-P1434.cpp) |
+| P1439 | [两个排列的最长公共子序列](https://www.luogu.com.cn/problem/P1439) | — | [Code](../solutions/luogu/Luogu-P1439.cpp) |
 | P1440 | [求m区间内的最小值](https://www.luogu.com.cn/problem/P1440) | — | [Code](../solutions/luogu/Luogu-P1440.cpp) |
 | P1443 | [马的遍历](https://www.luogu.com.cn/problem/P1443) | — | [Code](../solutions/luogu/Luogu-P1443.cpp) |
 | P1449 | [后缀表达式](https://www.luogu.com.cn/problem/P1449) | — | [Code](../solutions/luogu/Luogu-P1449.cpp) |
