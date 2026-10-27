@@ -1,40 +1,32 @@
-// Problem:  Luogu B3637 最长上升子序列
-// Link:     https://www.luogu.com.cn/problem/B3637
-// Author:   nine19een
-// Date:     2025-07-06
+// Luogu B3637 最长上升子序列
+// https://www.luogu.com.cn/problem/B3637
 
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
-int findMax(int a[], int n) 
-{
-	int m;
-	m = a[1];
-	for(int i = 1; i < n; i++)
-	{
-		if(a[i+1] > m )
-			m = a[i+1];
-	}
-	return m;
+constexpr int maxn = 5005;
+
+int n, a[maxn];
+vector<int> dp;
+
+void DP() {
+    for (int i = 1; i <= n; ++i) {
+        if (dp.empty() || dp.back() < a[i]) {
+            dp.push_back(a[i]);
+        } else {
+            *lower_bound(dp.begin(), dp.end(), a[i]) = a[i];
+        }
+    }
 }
 
-int n;
-int a[1000005], f[1000005];
-int main()
-{
-	cin >> n;
-	for(int i = 1; i <= n; i++)
-		cin >> a[i];
-	f[1] = 1;
-	for(int i = 2; i <= n; i++)
-	{
-		int f_max = 0;
-		for(int j = 1 ;j < i; j++)
-		{
-			if(a[j] < a[i] && f[j] >= f_max)
-				f_max = f[j];
-		}
-		f[i] = f_max + 1;
-	}
-	cout << findMax(f, n);
-	return 0;
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    dp.reserve(maxn);
+    cin >> n;
+    for (int i = 1; i <= n; ++i) {
+        cin >> a[i];
+    }
+    DP();
+    cout << (int) dp.size();
+    return 0;
 }
