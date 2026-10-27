@@ -357,6 +357,7 @@ Unknown problem metadata is left unconfirmed; original headers are not changed.
 | P1273 | [有线电视网](https://www.luogu.com.cn/problem/P1273) | — | [Code](../solutions/luogu/Luogu-P1273.cpp) |
 | P12834 | [\[蓝桥杯 2025 国 B\] 项链排列](https://www.luogu.com.cn/problem/P12834) | — | [Code](../solutions/luogu/Luogu-P12834.cpp) |
 | P12835 | [\[蓝桥杯 2025 国 B\] 蓝桥星数字](https://www.luogu.com.cn/problem/P12835) | — | [Code](../solutions/luogu/Luogu-P12835.cpp) |
+| P1296 | [奶牛的耳语](https://www.luogu.com.cn/problem/P1296) | — | [Code](../solutions/luogu/Luogu-P1296.cpp) |
 | P1308 | [\[NOIP 2011 普及组\] 统计单词数](https://www.luogu.com.cn/problem/P1308) | — | [Code](../solutions/luogu/Luogu-P1308.cpp) |
 | P1313 | [P1313 \[NOIP 2011 提高组\] 计算系数](https://www.luogu.com.cn/problem/P1313) | — | [Code](../solutions/luogu/Luogu-P1313.cpp) |
 | P1317 | [低洼地](https://www.luogu.com.cn/problem/P1317) | — | [Code](../solutions/luogu/Luogu-P1317.cpp) |
@@ -576,6 +577,7 @@ Unknown problem metadata is left unconfirmed; original headers are not changed.
 
 | Problem ID | Title | Variant | Code |
 | --- | --- | --- | --- |
+| — | Campus OJ P160 灯光的两种节奏 | — | [Code](../solutions/campus-oj/campus-oj-P160.cpp) |
 | — | 逆序K倍对 | — | [Code](../solutions/misc/K-InversePairs.cpp) |
 | — | 丁香花分形 | — | [Code](../solutions/misc/LilacFractal.cpp) |
 
