@@ -577,7 +577,12 @@ Unknown problem metadata is left unconfirmed; original headers are not changed.
 
 | Problem ID | Title | Variant | Code |
 | --- | --- | --- | --- |
+| — | Campus OJ P034 月亮与雨伞 | — | [Code](../solutions/campus-oj/campus-oj-P034.cpp) |
+| — | Campus OJ P059 没有怪物的安全正方形 | — | [Code](../solutions/campus-oj/campus-oj-P059.cpp) |
 | — | Campus OJ P160 灯光的两种节奏 | — | [Code](../solutions/campus-oj/campus-oj-P160.cpp) |
+| — | Campus OJ P161 星光阶梯 | — | [Code](../solutions/campus-oj/campus-oj-P161.cpp) |
+| — | Campus OJ P162 飞船能源舱 | — | [Code](../solutions/campus-oj/campus-oj-P162.cpp) |
+| — | Campus OJ P163 花园巡查路线 | — | [Code](../solutions/campus-oj/campus-oj-P163.cpp) |
 | — | 逆序K倍对 | — | [Code](../solutions/misc/K-InversePairs.cpp) |
 | — | 丁香花分形 | — | [Code](../solutions/misc/LilacFractal.cpp) |
 
