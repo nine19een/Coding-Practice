@@ -577,9 +577,12 @@ Unknown problem metadata is left unconfirmed; original headers are not changed.
 
 | Problem ID | Title | Variant | Code |
 | --- | --- | --- | --- |
+| — | Campus OJ P010 欢迎语的子序列 | — | [Code](../solutions/campus-oj/campus-oj-P010.cpp) |
 | — | Campus OJ P034 月亮与雨伞 | — | [Code](../solutions/campus-oj/campus-oj-P034.cpp) |
 | — | Campus OJ P059 没有怪物的安全正方形 | — | [Code](../solutions/campus-oj/campus-oj-P059.cpp) |
+| — | Campus OJ P087 外星钢琴 | — | [Code](../solutions/campus-oj/campus-oj-P087.cpp) |
 | — | Campus OJ P099 修改一个数后的最长等差段 | — | [Code](../solutions/campus-oj/campus-oj-P099.cpp) |
+| — | Campus OJ P124 收集Boris海报 | — | [Code](../solutions/campus-oj/campus-oj-P124.cpp) |
 | — | Campus OJ P160 灯光的两种节奏 | — | [Code](../solutions/campus-oj/campus-oj-P160.cpp) |
 | — | Campus OJ P161 星光阶梯 | — | [Code](../solutions/campus-oj/campus-oj-P161.cpp) |
 | — | Campus OJ P162 飞船能源舱 | — | [Code](../solutions/campus-oj/campus-oj-P162.cpp) |
