@@ -587,6 +587,13 @@ Unknown problem metadata is left unconfirmed; original headers are not changed.
 | — | Campus OJ P161 星光阶梯 | — | [Code](../solutions/campus-oj/campus-oj-P161.cpp) |
 | — | Campus OJ P162 飞船能源舱 | — | [Code](../solutions/campus-oj/campus-oj-P162.cpp) |
 | — | Campus OJ P163 花园巡查路线 | — | [Code](../solutions/campus-oj/campus-oj-P163.cpp) |
+| — | Campus OJ P164 连续出勤 | — | [Code](../solutions/campus-oj/campus-oj-P164.cpp) |
+| — | Campus OJ P165 题目上架 | — | [Code](../solutions/campus-oj/campus-oj-P165.cpp) |
+| — | Campus OJ P166 赛前讲义 | — | [Code](../solutions/campus-oj/campus-oj-P166.cpp) |
+| — | Campus OJ P167 Campus OJ 的评测进度 | — | [Code](../solutions/campus-oj/campus-oj-P167.cpp) |
+| — | Campus OJ P168 训练视频剪辑 | — | [Code](../solutions/campus-oj/campus-oj-P168.cpp) |
+| — | Campus OJ P169 训练室答疑点 | — | [Code](../solutions/campus-oj/campus-oj-P169.cpp) |
+| — | Campus OJ P170 最佳成绩时间轴 | — | [Code](../solutions/campus-oj/campus-oj-P170.cpp) |
 | — | 逆序K倍对 | — | [Code](../solutions/misc/K-InversePairs.cpp) |
 | — | 丁香花分形 | — | [Code](../solutions/misc/LilacFractal.cpp) |
 
