@@ -1,32 +1,22 @@
-// Problem:  Luogu P1048 [NOIP 2005 普及组] 采药
-// Link:     https://www.luogu.com.cn/problem/P1048
-// Author:   nine19een
-// Date:     2025-07-21
+// Luogu P1048 [NOIP 2005 普及组] 采药
+// https://www.luogu.com.cn/problem/P1048
 
 #include<bits/stdc++.h>
 using namespace std;
-int T, M;
-int value[105], Time[105];
+constexpr int maxt = 1005, maxm = 105;
 
-void solve(){
-	int f[1005];
-	memset(f, 0, sizeof(f));
-	for(int i = 1; i <= M; i++){
-		for(int restime = T; restime >= Time[i]; restime--){
-			f[restime] = max(f[restime], f[restime - Time[i]] + value[i]);
-		}
-	}
-	cout << f[T];
-	return;
+int T, M, dp[maxt], t[maxm], v[maxm];
+
+int main() {
+    cin >> T >> M;
+    for (int i = 1; i <= M; ++i) {
+        cin >> t[i] >> v[i];
+    }
+    for (int i = 1; i <= M; ++i) {
+        for (int j = T; j >= t[i]; --j) {
+            dp[j] = max(dp[j], dp[j - t[i]] + v[i]);
+        }
+    }
+    cout << dp[T];
+    return 0;
 }
-
-int main(){
-	memset(value, 0, sizeof(value));
-	memset(Time, 0, sizeof(Time));	
-	cin >> T >> M;
-	for(int i = 1; i <= M; i++){
-		cin >> Time[i] >> value[i] ;
-	}
-	solve();
-	return 0;
-} 
