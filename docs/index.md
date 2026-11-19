@@ -596,6 +596,8 @@ Unknown problem metadata is left unconfirmed; original headers are not changed.
 | — | Campus OJ P168 训练视频剪辑 | — | [Code](../solutions/campus-oj/campus-oj-P168.cpp) |
 | — | Campus OJ P169 训练室答疑点 | — | [Code](../solutions/campus-oj/campus-oj-P169.cpp) |
 | — | Campus OJ P170 最佳成绩时间轴 | — | [Code](../solutions/campus-oj/campus-oj-P170.cpp) |
+| — | 20.有效的括号 | — | [Code](../solutions/leetcode/leetcode_20.cpp) |
+| — | 前 K 个高频元素 | — | [Code](../solutions/leetcode/leetcode_347.cpp) |
 | — | 逆序K倍对 | — | [Code](../solutions/misc/K-InversePairs.cpp) |
 | — | 丁香花分形 | — | [Code](../solutions/misc/LilacFractal.cpp) |
 
