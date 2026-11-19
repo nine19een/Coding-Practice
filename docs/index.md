@@ -467,6 +467,7 @@ Unknown problem metadata is left unconfirmed; original headers are not changed.
 | P2615 | [\[NOIP 2015 提高组\] 神奇的幻方](https://www.luogu.com.cn/problem/P2615) | — | [Code](../solutions/luogu/Luogu-P2615.cpp) |
 | P2670 | [\[NOIP 2015 普及组\] 扫雷游戏](https://www.luogu.com.cn/problem/P2670) | C-style (legacy) | [Code](../solutions/luogu/Luogu-P2670_%28C%29.cpp) |
 | P2678 | [\[NOIP 2015 提高组\] 跳石头](https://www.luogu.com.cn/problem/P2678) | — | [Code](../solutions/luogu/Luogu-P2678.cpp) |
+| P2722 | [\[USACO3.1\] 总分 Score Inflation](https://www.luogu.com.cn/problem/P2722) | — | [Code](../solutions/luogu/Luogu-P2722.cpp) |
 | P2782 | [友好城市](https://www.luogu.com.cn/problem/P2782) | — | [Code](../solutions/luogu/Luogu-P2782.cpp) |
 | P2834 | [纸币问题 3](https://www.luogu.com.cn/problem/P2834) | — | [Code](../solutions/luogu/Luogu-P2834.cpp) |
 | P2834 | [纸币问题 3](https://www.luogu.com.cn/problem/P2834) | C-style (legacy) | [Code](../solutions/luogu/Luogu-P2834_%28C%29.cpp) |
@@ -475,6 +476,7 @@ Unknown problem metadata is left unconfirmed; original headers are not changed.
 | P2842 | [纸币问题 1](https://www.luogu.com.cn/problem/P2842) | — | [Code](../solutions/luogu/Luogu-P2842.cpp) |
 | P2858 | [\[USACO06FEB\] Treats for the Cows G/S](https://www.luogu.com.cn/problem/P2858) | — | [Code](../solutions/luogu/Luogu-P2858.cpp) |
 | P2870 | [\[USACO07DEC\] Best Cow Line G](https://www.luogu.com.cn/problem/P2870) | — | [Code](../solutions/luogu/Luogu-P2870.cpp) |
+| P2871 | [\[USACO07DEC\] Charm Bracelet S](https://www.luogu.com.cn/problem/P2871) | — | [Code](../solutions/luogu/Luogu-P2871.cpp) |
 | P2895 | [\[USACO08FEB\] Meteor Shower S](https://www.luogu.com.cn/problem/P2895) | — | [Code](../solutions/luogu/Luogu-P2895.cpp) |
 | P2911 | [\[USACO08OCT\] Bovine Bones G](https://www.luogu.com.cn/problem/P2911) | C-style (legacy) | [Code](../solutions/luogu/Luogu-P2911_%28C%29.cpp) |
 | P2912 | [\[USACO08OCT\] Pasture Walking G](https://www.luogu.com.cn/problem/P2912) | — | [Code](../solutions/luogu/Luogu-P2912.cpp) |
