@@ -15,7 +15,6 @@ int main() {
         cin >> a[i];
     }
     dp[0] = 1;
-    sort(a + 1, a + n + 1);
     for (int i = 1; i <= n; ++i) {
         for (int j = a[i]; j <= w; ++j) {
             dp[j] = (dp[j] + dp[j - a[i]]) % MOD;
